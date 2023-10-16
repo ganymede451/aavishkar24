@@ -1,0 +1,8 @@
+[15-Oct-2023 16:18:51 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\user\Local Sites\aavishkar23\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[15-Oct-2023 16:48:25 UTC] PHP Warning:  Undefined variable $indicator_pro_installed in C:\Users\user\Local Sites\aavishkar23\app\public\wp-content\themes\experon-dark\functions.php on line 78
+[15-Oct-2023 17:48:24 UTC] PHP Warning:  Undefined variable $indicator_pro_installed in C:\Users\user\Local Sites\aavishkar23\app\public\wp-content\themes\experon-dark\functions.php on line 78
+[15-Oct-2023 17:48:52 UTC] PHP Warning:  Undefined variable $indicator_pro_installed in C:\Users\user\Local Sites\aavishkar23\app\public\wp-content\themes\experon-dark\functions.php on line 78
+[15-Oct-2023 17:49:19 UTC] PHP Warning:  Undefined variable $indicator_pro_installed in C:\Users\user\Local Sites\aavishkar23\app\public\wp-content\themes\experon-dark\functions.php on line 78
+[15-Oct-2023 17:51:38 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\user\Local Sites\aavishkar23\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[15-Oct-2023 17:51:52 UTC] PHP Warning:  Undefined variable $indicator_pro_installed in C:\Users\user\Local Sites\aavishkar23\app\public\wp-content\themes\experon-dark\functions.php on line 78
+[15-Oct-2023 17:53:35 UTC] PHP Warning:  Undefined variable $indicator_pro_installed in C:\Users\user\Local Sites\aavishkar23\app\public\wp-content\themes\experon-dark\functions.php on line 78

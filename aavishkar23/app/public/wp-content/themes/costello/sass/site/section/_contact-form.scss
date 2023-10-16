@@ -1,0 +1,62 @@
+/**
+ * 7.3.16 - Contact Form
+ */
+
+ .section.contact-form-section.has-map {
+    padding-top: 0;
+ }
+
+.section-content-wrapper .contact-us-form .entry-content {
+    margin-top: 0;
+}
+
+.inner-contact .label {
+    font-weight: 700;
+}
+
+.contact-details .entry-container > .contact:not(:last-child) {
+    border-bottom: 1px dashed;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+}
+
+.contact-details .entry-container > .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-details .contact svg {
+   font-size: 42px;
+   font-size: 2.625rem;
+   margin-right: 21px;
+}
+
+.contact-form-section.layout-two .section-heading-wrapper {
+    margin: unset;
+    max-width: 580px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact-form-section .hentry {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+.contact-us-form .two-col div:last-child {
+    padding-right: 0;
+}
+
+#contact-section .section-content-wrapper .entry-content {
+    margin-top: 0;
+}
+
+.wpcf7 div div {
+    margin-bottom: 21px;
+}

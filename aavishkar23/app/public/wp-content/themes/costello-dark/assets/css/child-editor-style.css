@@ -1,0 +1,279 @@
+/*
+Theme Name: costello Pro
+Description: Used to style the TinyMCE editor.
+*/
+
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+/**
+ * 10.0 - Color
+ */
+/* Background Color */
+body {
+    background-color: #000000;
+}
+
+/* Secondary Background Color */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+mark,
+pre {
+    background-color: #1e1e1e;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+optgroup,
+textarea,
+table a,
+.mce-item-tabl a,
+blockquote,
+input::placeholder,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    color: #999999;
+}
+
+
+/* Headline Text Color */
+h1,
+.mce-content-body h1,
+h2,
+.mce-content-body h2,
+h3,
+.mce-content-body h3,
+h4,
+.mce-content-body h4,
+h5,
+.mce-content-body h5,
+h6,
+.mce-content-body h6,
+blockquote,
+input:focus,
+select:focus,
+optgroup:focus,
+textarea:focus,
+.drop-cap:first-letter {
+    color: #ffffff;
+}
+
+/* Footer Background Color */
+ins {
+    background-color: #1f1f1f;
+}
+
+/* Link Color */
+a {
+    color: #ffffff;
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus {
+    color: #d9b9b9;
+}
+
+/* Secondary Link Color */
+.more-link,
+ins,
+input,
+select,
+optgroup,
+textarea {
+    color: #d9b9b9;
+}
+
+/* Secondary Link Hover Color */
+.more-link:hover,
+.more-link:focus {
+    color: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    border-color: #ffffff;
+}
+
+/* Button Background Color */
+.button,
+button[type="submit"],
+input[type="submit"] {
+    background-color: #d78724;
+}
+
+/* Button Text Color */
+.button,
+button[type="submit"],
+input[type="submit"] {
+    color: #ffffff;
+}
+
+/* Button Hover Text Color */
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    color: #ffffff;
+}
+
+/* Button Hover Background Color */
+.button:hover,
+.button:focus,
+#scrollup:hover,
+#scrollup:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #333333;
+}
+
+/* Border Color */
+tfoot,
+.mce-item-tabl tfoot,
+tfoot tr td,
+.mce-item-tabl tfoot tr td,
+table,
+.mce-item-tabl,
+caption,
+.mce-item-tabl caption,
+th,
+.mce-item-tabl th,
+td,
+.mce-item-tabl th,
+table thead,
+.mce-item-tabl thead,
+table thead tr,
+.mce-item-tabl thead tr,
+thead th,
+.mce-item-tabl thead th,
+select,
+abbr,
+acronym,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    border-color: #323232;
+}
+
+/* Text Color With Background */
+ins {
+    color: #ffffff;
+}
+
+/* Gradient Button Background Color */
+.is-gradient-button .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button button[disabled]:hover,
+.is-gradient-button button[disabled]:focus,
+.is-gradient-button .button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="button"][disabled]:hover,
+.is-gradient-button input[type="button"][disabled]:focus,
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="reset"][disabled]:hover,
+.is-gradient-button input[type="reset"][disabled]:focus,
+.is-gradient-button input[type="submit"],
+.is-gradient-button input[type="submit"][disabled]:hover,
+.is-gradient-button input[type="submit"][disabled]:focus {
+    background-image: linear-gradient(to left, #e86a3d, #e75743);
+}
+
+/* Gradient Button Text Color */
+.is-gradient-button .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button button[disabled]:hover,
+.is-gradient-button button[disabled]:focus,
+.is-gradient-button .button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="button"][disabled]:hover,
+.is-gradient-button input[type="button"][disabled]:focus,
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="reset"][disabled]:hover,
+.is-gradient-button input[type="reset"][disabled]:focus,
+.is-gradient-button input[type="submit"],
+.is-gradient-button input[type="submit"][disabled]:hover,
+.is-gradient-button input[type="submit"][disabled]:focus {
+    color: #ffffff;
+}
+
+
+/* Color Transparent */
+.is-gradient-button .more-button .more-link:hover,
+.is-gradient-button .more-button .more-link:focus,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle):hover,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle):focus,
+.is-gradient-button .button:hover,
+.is-gradient-button .button:focus,
+.is-gradient-button input[type="button"]:hover,
+.is-gradient-button input[type="button"]:focus,
+.is-gradient-button input[type="reset"]:hover,
+.is-gradient-button input[type="reset"]:focus,
+.is-gradient-button input[type="submit"]:hover,
+.is-gradient-button input[type="submit"]:focus {
+    background-image: none;
+}
+

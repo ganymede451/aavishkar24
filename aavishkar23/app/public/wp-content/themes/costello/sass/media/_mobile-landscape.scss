@@ -1,0 +1,110 @@
+/**
+ * 8.2 - >= 667px / 41.6875em
+ */
+
+@include media(mobile-landscape) {
+     .stats-section.style-one .wrapper {
+          display: flex;
+     }
+
+     .stats-section.style-one .title-button-wrapper {
+          text-align: left;
+          padding-bottom: 0;
+          width: 32%;
+     }
+
+     .stats-section.style-one .section-heading-wrapper,
+     .stats-section.style-one .title-button-wrapper .view-more {
+          text-align: left;
+     }
+
+     .stats-section.style-one .section-content-wrapper {
+          width: 68%;
+     }
+
+     .stats-section.style-one .section-title-wrapper {
+         max-width: 490px;
+     }
+
+     .testimonial-content-section.style-one .hentry-inner {
+         margin: 0 auto;
+         max-width: 1200px;
+         overflow: hidden;
+         @include flex;
+     }
+
+     .testimonial-content-section.style-one .post-thumbnail {
+         width: 40%;
+     }
+
+     .testimonial-content-section.style-one .entry-container {
+          padding-left: 40px;
+          text-align: left;
+          width: 60%;
+     }
+
+     .testimonial-content-section.style-one .entry-container:before {
+         left: unset;
+         transform: none;
+     }
+
+     .promotion-contact .entry-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          text-align: left;
+     }
+
+     .promotion-contact .section-heading-wrapper {
+          margin-right: auto;
+          max-width: 770px;
+          width: 60%;
+     }
+
+     .promotion-contact .button-wrap {
+          padding-left: 28px;
+          text-align: right;
+          width: 40%;
+     }
+
+     .promotion-contact .more-button {
+          margin: 0;
+     }
+
+     .container--tabs .tab-content > .tab-pane .hentry-inner {
+      -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    }
+
+    .container--tabs .tab-content > .tab-pane .hentry-inner .post-thumbnail {
+          width: 44.28571428571429%;
+    }
+
+    .container--tabs .tab-content > .tab-pane .hentry-inner .entry-container {
+          width: 55.71428571428571%;
+    }
+
+    .container--tabs .entry-container {
+          max-width: 680px;
+          margin-right: auto;
+          padding-right: 40px;
+     }
+
+     .promotion-section .entry-title {
+          font-size: 26px;
+          font-size: 1.625rem;
+     }
+     #feature-slider-section.text-below-image .post-thumbnail img {
+          position: absolute;
+      
+      }
+
+  
+
+    
+}

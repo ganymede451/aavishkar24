@@ -1,0 +1,158 @@
+/**
+ * 7.3.17 - Team Content Section
+ */
+
+#team-content-section .hentry-inner {
+    margin: 0 auto;
+}
+
+#team-content-section .entry-title {
+    font-weight: 700;
+}
+
+.team-content-wrapper {
+	text-align: center;
+}
+
+#team-content-section .entry-meta {
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.56;
+    letter-spacing: 0;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.team-content-wrapper .artist-social-profile {
+    margin-top: 14px;
+}
+
+
+.team-content-wrapper .post-thumbnail img {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.team-content-wrapper .post-thumbnail a {
+    display: inline-block;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.team-content-wrapper .post-thumbnail {
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#team-content-section .section-heading-wrapper {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.team-content-wrapper,
+.team-content-area {
+    padding: 0 30px;
+}
+.skillbar-content {
+    clear: both;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 35px;
+    position: relative;
+    width: 100%;
+    height: 10px;
+}
+.skillbar-bar {
+    height: 10px;
+    width: 0;
+}
+p.skill-bar-percent {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: -42px;
+}
+
+.skill-bar-section.hentry {
+    padding: 0;
+}
+.skillbar-title {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.team-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team-content-wrapper .hentry {
+    width: 100%;
+    position: relative;
+}
+
+.team-content-wrapper .hentry .post-thumbnail{
+    position: relative;
+
+    &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: rgba(0,0,0,0.5);
+        z-index: 9;
+        opacity: 0;
+        transition: all 0.4s;
+    }
+}
+
+.team-content-wrapper .hentry:hover .post-thumbnail::before {
+    opacity: 1;
+}
+
+.team-content-area p.view-more {
+    text-align: left;
+    padding: 0;
+}
+
+.team-content-wrapper .hentry .entry-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    padding: 21px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.team-content-wrapper .hentry:hover .entry-container {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-content-wrapper .hentry-inner {
+    position: relative;
+}
+
+.team-content-wrapper .post-thumbnail {
+    margin: 0;
+}

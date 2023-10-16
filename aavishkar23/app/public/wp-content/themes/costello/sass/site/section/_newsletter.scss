@@ -1,0 +1,63 @@
+/**
+ * 7.3.11 - Newsletter
+ */
+
+#footer-newsletter .wrapper {
+    max-width: 100%;
+}
+
+#footer-newsletter .section-heading-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#footer-newsletter .ewnewsletter .widget-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 620px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+#footer-newsletter .ewnewsletter .widget-inner-wrap {
+    padding: 0;
+}
+
+#footer-newsletter .widget.ewnewsletter,
+.ewnewsletter .section-description :last-child,
+.widget.ewnewsletter .hentry,
+.ewnewsletter .ew-newsletter-wrap input,
+.ewnewsletter .ew-newsletter-wrap #subbutton  {
+    margin-bottom: 0;
+}
+
+.ewnewsletter .ew-newsletter-wrap #subbutton,
+.ewnewsletter .ew-newsletter-wrap input:first-of-type {
+    margin-top: 0;
+}
+
+.ewnewsletter .hentry {
+    float: none;
+}
+
+.after-text,
+.before-text {
+    clear: both;
+    display: block;
+    margin: 14px 0;
+}
+
+.ewnewsletter .hentry form input[type="email"] {
+    padding-right: 60px;
+}
+
+.ewnewsletter .hentry form input[type="submit"] {
+    background-color: transparent;
+    border-radius: 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 15px;
+    height: 48px;
+    line-height: 1;
+}

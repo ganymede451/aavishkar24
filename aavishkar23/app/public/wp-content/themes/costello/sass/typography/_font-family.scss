@@ -1,0 +1,72 @@
+/**
+ * 2.2 - Font-Family
+ */
+
+body,
+cite,
+.site-description
+time.wp-block-latest-comments__comment-date,
+.wp-block-latest-comments__comment-excerpt p {
+	font-family: $body-font;
+}
+
+.section-subtitle,
+.section-tagline,
+.site-title {
+	font-family: $site-title-font;
+}
+
+.entry-title,
+.widget-title,
+.post-title,
+.nav-title,
+.section-title,
+.contact-address-link-one,
+.contact-address-link-two,
+.author-link,
+.contact-location-one,
+.contact-location-two,
+.author-name .url,
+.comment-reply-link,
+.widget li,
+.widgettitle {
+	font-family: $content-title-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+button,
+input,
+select,
+textarea,
+.button,
+.more-link,
+.pagination .page-numbers,
+#content #infinite-handle span button,
+.custom-header .entry-title,
+.feature-slider-section .entry-title,
+.app-section .entry-title,
+.gallery-section .entry-title,
+.hero-section .entry-title,
+.promotion-section .entry-title,
+.widget .wp-block-latest-posts__list,
+.widget .wp-block-latest-comments__comment,
+.gallery-section .entry-title,
+.wp-block-search__label,
+#feature-slider-section .entry-meta a,
+.stats-section .entry-summary,
+.main-navigation a,
+.site-info,
+.site-navigation a,
+#primary-search-wrapper .menu-inside-wrapper input[type="search"],
+nav.navigation.posts-navigation .nav-links a,
+.edd-single-product-container .product-title,
+.promotion-contact .entry-title {
+	font-family: $heading-font;
+}
+

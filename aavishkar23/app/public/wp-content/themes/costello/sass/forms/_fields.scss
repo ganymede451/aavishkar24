@@ -1,0 +1,199 @@
+/**
+ * 4.0 - Forms
+ */
+
+input {
+    line-height: normal;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+.entry-summary button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+#stats-section .view-more .more-link,
+#app-section .entry-summary .more-link,
+.posts-navigation a,
+#content #infinite-handle span button,
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+.promotion-section .more-button .more-link,
+.woocommerce .product-container .wc-forward,
+.header-media .more-link,
+#feature-slider-section .more-link,
+.more-button .more-link {
+    font-size: 16px;
+    font-size: 1rem;
+
+    @include border(0);
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.31;
+    text-transform: uppercase;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+.wp-block-search .wp-block-search__input,
+form div.fes-form .fes-el .fes-fields input[type="text"],
+form div.fes-form .fes-el .fes-fields input[type="password"],
+form div.fes-form .fes-el .fes-fields input[type="email"],
+form div.fes-form .fes-el .fes-fields input[type="url"],
+form div.fes-form .fes-el .fes-fields input[type="number"],
+form div.fes-form .fes-el .fes-fields textarea {
+    border: 1px solid transparent;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    width: 100%;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]:-webkit-search-cancel-button,
+input[type="search"]:-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+form div.fes-form .fes-el .fes-fields input[type="text"],
+form div.fes-form .fes-el .fes-fields input[type="password"],
+form div.fes-form .fes-el .fes-fields input[type="email"],
+form div.fes-form .fes-el .fes-fields input[type="url"],
+form div.fes-form .fes-el .fes-fields input[type="number"],
+form div.fes-form .fes-el .fes-fields textarea {
+    outline: 0;
+    border: 1px solid;
+}
+
+.comment-form > p,
+.wpcf7-form > p {
+    margin-bottom: 14px;
+}
+
+.wpcf7-form > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.post-password-form {
+    margin-bottom: 1.75em;
+}
+
+.post-password-form label {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.076923077em;
+    line-height: 1.6153846154;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+    margin-top: 0.4375em;
+}
+
+.post-password-form > :last-child {
+    margin-bottom: 0;
+}
+
+.search-form,
+.woocommerce-product-search {
+    clear: both;
+    position: relative;
+}
+
+input[type="search"].search-field {
+    border-radius: 0;
+    -webkit-appearance: none;
+    margin: 0;
+    padding: 12px 64px 12px 14px;
+    width: 100%;
+}
+
+.search-submit {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 49px;
+}
+
+.search-submit:hover,
+.search-submit:focus {
+    background-image: none;
+    background-color: transparent;
+}
+
+select {
+    border: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    padding: 7px 10px;
+}
+
+.more-link i {
+    margin-left: 10px;
+}
+
+input[type="submit"],
+input#submit {
+    border: none;
+}
+
+.site-footer .ewnewsletter .hentry form input[type="email"] {
+    padding-right: 130px;
+}

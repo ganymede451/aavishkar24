@@ -1,0 +1,1746 @@
+/*
+Theme Name: costello Pro
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+ */
+
+ body {
+    margin: 30px;
+    max-width: 960px;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+h1,
+.mce-content-body h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main {
+    display: block;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px #767676 dotted;
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: inherit;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background-color: #eee;
+    color: #222;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+audio,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+img {
+    border-style: none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.56;
+    margin: 0;
+}
+
+input {
+    overflow: visible;
+}
+
+select {
+    text-transform: none;
+}
+
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+button:-moz-focus-inner,
+[type="button"]:-moz-focus-inner,
+[type="reset"]:-moz-focus-inner,
+[type="submit"]:-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted;
+}
+
+fieldset {
+    border: 1px solid #bbb;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type="number"]:-webkit-inner-spin-button,
+[type="number"]:-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type="search"]:-webkit-search-cancel-button,
+[type="search"]:-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+:-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+details,
+menu {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+canvas {
+    display: inline-block;
+}
+
+template {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+## Colors
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Fonts
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Structure
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Transition
+--------------------------------------------------------------*/
+a {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.more-link,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    transition: 0.2s background-color ease-in-out, 0.2s border-color ease-in-out;
+}
+
+/**
+ * 2.0 - Typography
+ */
+/*--------------------------------------------------------------
+## Font Family
+--------------------------------------------------------------*/
+/**
+ * 2.2 - Font-Family
+ */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+.mce-content-body h1,
+h2,
+.mce-content-body h2,
+h3,
+.mce-content-body h3,
+h4,
+.mce-content-body h4,
+h5,
+.mce-content-body h5,
+h6,
+.mce-content-body h6,
+blockquote {
+    font-family: "Oswald", sans-serif;
+}
+
+/*--------------------------------------------------------------
+## Font Size
+--------------------------------------------------------------*/
+/**
+ * 2.3 - Font-size
+ */
+
+.wpcf7 label {
+    font-size: 13px;
+    font-size: 0.8125rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+body {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+}
+
+big {
+    font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+## Headings
+--------------------------------------------------------------*/
+/**
+ * 2.4 - Heading
+ */
+h1,
+.mce-content-body h1
+h2,
+.mce-content-body h2,
+h3,
+.mce-content-body h3,
+h4,
+.mce-content-body h4,
+h5,
+.mce-content-body h5,
+h6,
+.mce-content-body h6 {
+    clear: both;
+    font-weight: 700;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-style: normal;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+
+h1,
+.mce-content-body h1 {
+    line-height: 1.33;
+}
+
+h2,
+.mce-content-body h2 {
+    line-height: 1.43;
+}
+
+h3,
+.mce-content-body h3 {
+    line-height: 1.36;
+}
+
+h4,
+.mce-content-body h4 {
+    line-height: 1.25;
+}
+
+h5,
+.mce-content-body h5 {
+    line-height: 1.17;
+}
+
+h6,
+.mce-content-body h6 {
+    line-height: 1.56;
+}
+
+p {
+    margin: 0 0 1.75em 0;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+address {
+    font-style: italic;
+    margin: 0 0 1.75em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp {
+    font-family: Inconsolata, monospace;
+    font-size: 1em;
+}
+
+pre {
+    font-family: Inconsolata, monospace;
+    line-height: 1.5;
+    margin: 0 0 1.75em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.75em;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+    padding: 0.125em 0.25em;
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+mark,
+ins {
+    padding: 0.125em 0.25em;
+    text-decoration: none;
+}
+
+big {
+    font-size: 125%;
+}
+
+/**
+ * 3.0 - Elements
+ */
+/*--------------------------------------------------------------
+## elements
+--------------------------------------------------------------*/
+/**
+ * 3.1 - Elements
+ */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0 0 1.75em;
+}
+
+ul,
+ol,
+.ew-author ul,
+.ew-archive ul,
+.ew-categories ul {
+    margin: 0 0 1.4em 1.05em;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li>ul,
+li>ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin: 0 0 1.75em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin: 0 1.5em 1.75em;
+}
+
+img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+    vertical-align: middle;
+}
+
+del {
+    opacity: 0.8;
+}
+
+table,
+.mce-item-table {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 1.05em;
+    table-layout: fixed;
+    /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+    border-right: 1px solid;
+    font-weight: normal;
+    text-align: left;
+}
+
+thead th,
+.mce-item-table thead th {
+    border-bottom: 1px solid;
+    font-weight: 700;
+}
+
+tbody th,
+.mce-item-table tbody th {
+    font-weight: 400;
+}
+
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+    padding: 0.7em 1.4em;
+}
+
+.drop-cap:first-letter {
+    float: left;
+    font-size: 92px;
+    font-size: 5.75rem;
+    font-weight: 700;
+    line-height: 0.6;
+    margin: 14px 16px 4px -3px;
+}
+
+
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+## icons
+--------------------------------------------------------------*/
+/**
+ * 3.2 - icons
+ */
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 1em;
+    position: relative;
+    /* Align more nicely with capital letters */
+    top: -0.10em;
+    vertical-align: middle;
+    width: 1em;
+}
+
+/**
+ * 3.1 - SVGs Fallbacks
+ */
+.svg-fallback {
+    display: none;
+}
+
+.no-svg .svg-fallback {
+    display: inline-block;
+}
+
+.no-svg .dropdown-toggle {
+    padding: 0;
+    right: 0;
+    text-align: center;
+    width: 48px;
+    height: 52px;
+}
+
+.no-svg .dropdown-toggle .svg-fallback.icon-angle-down {
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    transform: rotate(180deg);
+}
+
+.no-svg .dropdown-toggle.toggled-on .svg-fallback.icon-angle-down {
+    -webkit-transform: rotate(0);
+    /* Chrome, Safari, Opera */
+    -ms-transform: rotate(0);
+    /* IE 9 */
+    transform: rotate(0);
+}
+
+.no-svg .dropdown-toggle .svg-fallback.icon-angle-down:before {
+    content: "\005E";
+}
+
+.no-svg .social-navigation li a .screen-reader-text,
+.no-svg .search-submit .screen-reader-text {
+    clip: auto;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    height: auto;
+    position: relative !important;
+    /* overrides previous !important styles */
+    width: auto;
+}
+
+/*--------------------------------------------------------------
+## lists
+--------------------------------------------------------------*/
+/**
+ * 3.3 - lists
+ */
+
+
+ul,
+ol {
+    padding: 0;
+}
+
+ul li>ul,
+ol li>ol,
+ul li>ol,
+ol li>ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+## padding-margin
+--------------------------------------------------------------*/
+
+
+.wp-caption .wp-caption-text {
+    padding: 0.9333333333333333em;
+}
+
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.more-button .more-link {
+    padding: 14px 28px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    padding: 12px 14px;
+}
+
+/*--------------------------------------------------------------
+## fields
+--------------------------------------------------------------*/
+/**
+ * 4.0 - Forms
+ */
+input {
+    line-height: normal;
+}
+
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    font-size: 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    border: 1px solid;
+    margin-top: 14px;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    width: 100%;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]:-webkit-search-cancel-button,
+input[type="search"]:-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.comment-form>p,
+.wpcf7-form>p {
+    margin-bottom: 7px;
+}
+
+.post-password-form {
+    margin-bottom: 1.75em;
+}
+
+.post-password-form label {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.076923077em;
+    line-height: 1.6153846154;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+    margin-top: 0.4375em;
+}
+
+.post-password-form> :last-child {
+    margin-bottom: 0;
+}
+
+input[type="search"].search-field {
+    border-radius: 0;
+    -webkit-appearance: none;
+    margin: 0;
+    padding: 12px 64px 12px 14px;
+    width: 100%;
+}
+
+.search-submit {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 49px;
+}
+
+.search-submit:hover,
+.search-submit:focus {
+    background-image: none;
+    background-color: transparent;
+}
+
+select {
+    border: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    padding: 7px 10px;
+}
+
+.more-link i {
+    margin-left: 10px;
+}
+
+/**
+ * 5.0 - Navigation
+ */
+/*--------------------------------------------------------------
+## menus
+--------------------------------------------------------------*/
+/**
+ * 5.1 - Main Menu
+ */
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline-offset: 2px;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+
+/*-------------------------------------------------------------
+## accessibility
+--------------------------------------------------------------*/
+/**
+ * 6.1 - Accessibility
+ */
+/* Text meant only for screen readers */
+.says,
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    /* many screen reader and browser combinations announce broken words as they would appear visually */
+    word-wrap: normal !important;
+}
+
+/* must have higher specificity than alternative color schemes inline styles */
+.site .skip-link {
+    background-color: #f1f1f1;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    left: -9999em;
+    outline: none;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    text-transform: none;
+    top: -9999em;
+}
+
+.logged-in .site .skip-link {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.site .skip-link:focus {
+    clip: auto;
+    height: auto;
+    left: 6px;
+    top: 7px;
+    width: auto;
+    z-index: 100000;
+}
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+/**
+ * 6.2 - Alignments
+ */
+.alignleft {
+    float: left;
+    margin: 0.7em 2.1em 1.05em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0.7em 0 1.05em 2.1em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto 1.75em;
+}
+
+blockquote.alignleft {
+    margin: 0.6363636363636364em 1.272727272727273em 1.590909090909091em 0;
+}
+
+blockquote.alignright {
+    margin: 0.6363636363636364em 0 1.590909090909091em 1.272727272727273em;
+}
+
+blockquote.aligncenter {
+    margin-bottom: 1.473684211em;
+}
+
+
+/*--------------------------------------------------------------
+## captions
+--------------------------------------------------------------*/
+/**
+ * 6.4 - Captions
+ */
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.87;
+    text-align: center;
+    opacity: 0.6;
+}
+
+
+/*--------------------------------------------------------------
+## media
+--------------------------------------------------------------*/
+/**
+ * 6.7 - Media
+ */
+.site .avatar {
+    border-radius: 50%;
+}
+
+.wp-smiley,
+.wp-smiley {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+a img,
+a img {
+    display: block;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+p>embed,
+p>iframe,
+p>object,
+p>video {
+    margin-bottom: 0;
+}
+
+h1,
+.mce-content-body h1 {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+h1,
+.mce-content-body h1 {
+    line-height: 1.33;
+    margin-bottom: 0.375em;
+    margin-top: 1.125em;
+}
+
+h2,
+.mce-content-body h2 {
+    margin-bottom: 0.4285714285714286em;
+    margin-top: 1.285714285714286em;
+}
+
+h2,
+.mce-content-body h2 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 1.43;
+}
+
+h3,
+.mce-content-body h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.36;
+}
+
+h3,
+.mce-content-body h3 {
+    margin-bottom: 0.5833333333333333em;
+    margin-top: 1.75em;
+}
+
+h4,
+.mce-content-body h4 {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+
+h4,
+.mce-content-body h4 {
+    margin-bottom: 0.75em;
+    margin-top: 2.25em;
+}
+
+h5,
+.mce-content-body h5 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin-bottom: 0.875em;
+    margin-top: 2.625em;
+}
+
+h6,
+.mce-content-body h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    margin-bottom: 1.166666666666667em;
+    margin-top: 3.5em;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+
+
+.more-button {
+    clear: both;
+    display: block;
+    margin-top: 21px;
+    line-height: 1.5;
+}
+
+.more-link {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.view-more {
+    clear: both;
+    margin-bottom: 28px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.author-avatar .avatar {
+    height: 65px;
+    width: 65px;
+}
+
+.author-description> :last-child {
+    margin-bottom: 0;
+}
+
+.author-description .author-title {
+    clear: none;
+    line-height: 1.56;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+}
+
+.author-bio {
+    line-height: 1.56;
+    overflow: hidden;
+}
+
+.author-link {
+    display: block;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a:not(.more-link):not(.button):not(.wp-block-button__link),
+a:not(.more-link):not(.button):not(.wp-block-button__link) {
+    text-decoration: underline;
+}
+
+a:not(.more-link):not(.button):hover,
+a:not(.more-link):not(.button):focus,
+a:not(.more-link):not(.button):hover,
+a:not(.more-link):not(.button):focus {
+    text-decoration: none;
+}
+
+/**
+ * 8.0 - Media Queries
+ */
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+    
+
+/*--------------------------------------------------------------
+## desktop 10.7
+--------------------------------------------------------------*/
+/**
+ * 8.5 - >= 1024px
+ */
+@media only screen and (min-width: 64em) {
+
+    input[type="search"].search-field {
+        display: block;
+    }
+
+    blockquote.alignleft,
+    blockquote.alignright {
+        width: 52%;
+    }
+
+    h1,
+    .mce-content-body h1 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    h2,
+    .mce-content-body h2 {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    h3,
+    .mce-content-body h3 {
+        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    h4,
+    .mce-content-body h4 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    h5,
+    .mce-content-body h5 {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+
+    h6,
+    .mce-content-body h6, {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+}
+
+/*--------------------------------------------------------------
+## wide-width 10.9
+--------------------------------------------------------------*/
+/**
+ * 8.8 - >= 1366px
+ */
+@media only screen and (min-width: 85.375em) {
+
+    h1,
+    .mce-content-body h1 {
+        font-size: 42px;
+        font-size: 2.625rem;
+    }
+
+    h2,
+    .mce-content-body h2 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    h3,
+    .mce-content-body h3 {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    h4,
+    .mce-content-body h4 {
+        font-size: 26px;
+        font-size: 1.635rem;
+    }
+
+    .button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .more-button .more-link {
+        padding: 16px 32px;
+    }
+}
+
+/*--------------------------------------------------------------
+## Ultra Wide 10.10
+--------------------------------------------------------------*/
+/**
+ * 8.9 - >= 1600px
+ */
+@media only screen and (min-width: 100em) {
+
+    body {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    h1,
+    .mce-content-body h1 {
+        font-size: 50px;
+        font-size: 3.125rem;
+    }
+
+    h2,
+    .mce-content-body h2 {
+        font-size: 42px;
+        font-size: 2.625rem;
+    }
+
+    h3,
+    .mce-content-body h3 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    h4,
+    .mce-content-body h4 {
+        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    h5,
+    .mce-content-body h5 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .more-button .more-link {
+        font-size: 18px;
+        font-size: 1.125rem;
+        padding: 18px 36px;
+    }
+
+    .view-more {
+        margin-bottom: 42px;
+    }
+
+    blockquote {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+}
+
+/*--------------------------------------------------------------
+## Ultra Wide 10.11
+--------------------------------------------------------------*/
+/**
+ * 8.10 - >= 1920px
+ */
+@media only screen and (min-width: 120em) {
+    
+    h1,
+    .mce-content-body h1 {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    h2,
+    .mce-content-body h2 {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    button[disabled]:hover,
+    button[disabled]:focus,
+    .button,
+    input[type="button"],
+    input[type="button"][disabled]:hover,
+    input[type="button"][disabled]:focus,
+    input[type="reset"],
+    input[type="reset"][disabled]:hover,
+    input[type="reset"][disabled]:focus,
+    input[type="submit"],
+    input[type="submit"][disabled]:hover,
+    input[type="submit"][disabled]:focus,
+    .more-button .more-link {
+        padding: 20px 40px;
+    }
+
+    .more-button {
+        margin-top: 35px;
+    }
+
+    blockquote {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+/**
+ * 10.0 - Color
+ */
+/* Background Color */
+body {
+    background-color: #ffffff;
+}
+
+/* Secondary Background Color */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+mark,
+pre {
+    background-color: #f8f8f8;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+optgroup,
+textarea,
+table a,
+.mce-item-tabl a,
+blockquote,
+input::placeholder,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    color: #333333;
+}
+
+
+/* Headline Text Color */
+h1,
+.mce-content-body h1,
+h2,
+.mce-content-body h2,
+h3,
+.mce-content-body h3,
+h4,
+.mce-content-body h4,
+h5,
+.mce-content-body h5,
+h6,
+.mce-content-body h6,
+blockquote,
+input:focus,
+select:focus,
+optgroup:focus,
+textarea:focus,
+.drop-cap:first-letter {
+    color: #000000;
+}
+
+/* Footer Background Color */
+ins {
+    background-color: #222222;
+}
+
+/* Link Color */
+a {
+    color: #000000;
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus {
+    color: #666666;
+}
+
+/* Secondary Link Color */
+.more-link,
+ins,
+input,
+select,
+optgroup,
+textarea {
+    color: #000000;
+}
+
+/* Secondary Link Hover Color */
+.more-link:hover,
+.more-link:focus {
+    color: #666666;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    border-color: #000000;
+}
+
+/* Button Background Color */
+.button,
+button[type="submit"],
+input[type="submit"] {
+    background-color: #000000;
+}
+
+/* Button Text Color */
+.button,
+button[type="submit"],
+input[type="submit"] {
+    color: #ffffff;
+}
+
+/* Button Hover Text Color */
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    color: #ffffff;
+}
+
+/* Button Hover Background Color */
+.button:hover,
+.button:focus,
+#scrollup:hover,
+#scrollup:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #333333;
+}
+
+/* Border Color */
+tfoot,
+.mce-item-tabl tfoot,
+tfoot tr td,
+.mce-item-tabl tfoot tr td,
+table,
+.mce-item-tabl,
+caption,
+.mce-item-tabl caption,
+th,
+.mce-item-tabl th,
+td,
+.mce-item-tabl th,
+table thead,
+.mce-item-tabl thead,
+table thead tr,
+.mce-item-tabl thead tr,
+thead th,
+.mce-item-tabl thead th,
+select,
+abbr,
+acronym,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    border-color: #ebebeb;
+}
+
+/* Text Color With Background */
+ins {
+    color: #ffffff;
+}
+
+/* Gradient Button Background Color */
+.is-gradient-button .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button button[disabled]:hover,
+.is-gradient-button button[disabled]:focus,
+.is-gradient-button .button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="button"][disabled]:hover,
+.is-gradient-button input[type="button"][disabled]:focus,
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="reset"][disabled]:hover,
+.is-gradient-button input[type="reset"][disabled]:focus,
+.is-gradient-button input[type="submit"],
+.is-gradient-button input[type="submit"][disabled]:hover,
+.is-gradient-button input[type="submit"][disabled]:focus {
+    background-image: linear-gradient(to left, #e03ae0, #f95042);
+}
+
+/* Gradient Button Text Color */
+.is-gradient-button .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button button[disabled]:hover,
+.is-gradient-button button[disabled]:focus,
+.is-gradient-button .button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="button"][disabled]:hover,
+.is-gradient-button input[type="button"][disabled]:focus,
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="reset"][disabled]:hover,
+.is-gradient-button input[type="reset"][disabled]:focus,
+.is-gradient-button input[type="submit"],
+.is-gradient-button input[type="submit"][disabled]:hover,
+.is-gradient-button input[type="submit"][disabled]:focus {
+    color: #ffffff;
+}
+
+
+/* Color Transparent */
+.is-gradient-button .more-button .more-link:hover,
+.is-gradient-button .more-button .more-link:focus,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle):hover,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle):focus,
+.is-gradient-button .button:hover,
+.is-gradient-button .button:focus,
+.is-gradient-button input[type="button"]:hover,
+.is-gradient-button input[type="button"]:focus,
+.is-gradient-button input[type="reset"]:hover,
+.is-gradient-button input[type="reset"]:focus,
+.is-gradient-button input[type="submit"]:hover,
+.is-gradient-button input[type="submit"]:focus {
+    background-image: none;
+}
+

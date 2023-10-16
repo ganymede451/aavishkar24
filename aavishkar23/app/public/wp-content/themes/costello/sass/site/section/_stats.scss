@@ -1,0 +1,47 @@
+/**
+ * 7.3.15 - Stats
+ */
+
+ .stats-section .post-thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+}
+
+.stats-content-wrapper .entry-container {
+    text-align: center;
+}
+
+.stats-section .section-content-wrapper .entry-summary,
+.stats-section .section-content-wrapper .entry-content {
+    margin-top: 14px;
+}
+
+.stats-section.style-one .hentry-inner {
+    padding: 28px;
+}
+
+ .stats-section.style-one .section-heading-wrapper {
+      padding-bottom: 0;
+ }
+
+.title-button-wrapper {
+    padding-bottom: 28px;
+}
+
+.stats-section.style-one .title-button-wrapper .view-more {
+    margin-bottom: 0;
+}
+
+.stats-section.style-one .entry-title a:hover,
+.stats-section.style-one .entry-title a:focus {
+    background: none;
+    -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+.stats-content-wrapper img.wp-post-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}

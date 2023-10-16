@@ -1,0 +1,282 @@
+/**
+ * 3.4 - Padding/Margin
+ */
+
+
+.singular-content-wrap .entry-content,
+.singular-content-wrap .entry-summary {
+	margin-top: 0;
+}
+
+#header-content .wrapper {
+	padding: 20px 30px;
+}
+
+body #playlist-section .wp-playlist {
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.playlist-content-wrapper .wp-playlist .wp-playlist-current-item {
+	padding: 10px;
+}
+
+.custom-header-content,
+#feature-slider-section .entry-container {
+    padding: 80px 30px 80px 30px;
+}
+
+body:not(.home) .custom-header-content {
+    padding: 80px 50px;
+    transition: padding 0.3s;
+}
+
+.site-content .wrapper > .sidebar {
+	margin-top: 14px;
+}
+
+.author-info {
+	padding: 35px;
+}
+
+.footer-widget-area {
+    padding: 14px 0 0;
+}
+
+
+.section-content-wrapper {
+    padding: 0 15px;
+}
+
+.site-footer .wrapper,
+.widget-column,
+.site-footer-menu,
+.site-info {
+	padding: 15px;
+}
+
+.widget-column.above-footer {
+	padding-top: 42px;
+}
+
+.single .site-main .entry-header,
+.page .site-main .entry-header,
+.archive .page-header,
+.error404 .page-header,
+.search .page-header,
+.woocommerce-products-header {
+	margin-bottom: 28px;
+	text-align: center;
+}
+
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags {
+	margin: 0 0 35px;
+}
+
+.author-avatar,
+.comment-reply-title {
+	margin: 0 0 21px;
+}
+
+.comments-title {
+	margin: 0 0 7px;	
+}
+
+.content-area .section-heading-wrapper {
+	padding-top: 0;
+}
+
+.widget li > ul,
+.widget li > ol {
+	clear: both;
+	margin-top: 7px;
+	margin-left: 14px;
+}
+
+.costello-logo-slider-section .section-content-wrapper .post-thumbnail {
+	margin-bottom: 0;
+}
+
+.costello-logo-slider-section .section-content-wrapper .entry-container {
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+
+.costello-logo-slider-section .section-content-wrapper .entry-summary {
+	margin-bottom: 0;
+	margin-top: 14px;
+}
+
+.entry-header .entry-title + .entry-meta {
+	margin-top: 14px;
+}
+
+.entry-header .entry-meta svg.icon {
+	margin-right: 7px;
+}
+
+.section-content-wrapper .entry-summary,
+.section-content-wrapper .entry-content {
+    margin-top: 21px;
+    width: 100%;
+}
+
+.woocommerce-posts-wrapper {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+/* New */
+.singular-content-wrap >:last-child,
+.site-header-text > :last-child,
+.section-tagline > :last-child,
+.widget-column > :last-child,
+.widget-area .widget .hentry:last-child,
+.widget-area .widget .hentry .entry-meta,
+.widget > :last-child,
+.widget li:last-child,
+.widget embed:last-child,
+.widget iframe:last-child,
+.widget object:last-child,
+.widget video:last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child,
+.widget_nav_menu ul,
+#colophon .widget li:last-child,
+.custom-header-content-wrapper > :last-child,
+.custom-header-content > :last-child,
+.section-description > :last-child {
+	margin-bottom: 0;
+}
+
+.widget-area .ewfeaturedpostpageimage .featured-image {
+	margin-top: 0;
+}
+
+.custom-logo {
+	margin: 0 auto;
+}
+
+.has-header-video .custom-header-content {
+	padding-bottom: 178px;
+}
+
+.entry-title {
+	margin: 0;
+}
+
+.widget-area .entry-meta {
+	margin-top: 0;
+}
+
+.widget-area .entry-header .entry-title + .entry-meta {
+	margin-top: 7px;
+}
+
+#testimonial-content-section.has-post-thumbnail .entry-container {
+	padding: 84px 30px 42px;
+}
+
+.post-navigation div + div,
+.posts-navigation div + div {
+	margin-top: 21px;
+}
+
+.wp-caption .wp-caption-text {
+	padding: 0.9333333333333333em;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.posts-navigation a,
+#content #infinite-handle span button,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.hero-section .more-button .more-link,
+.promotion-section .more-button .more-link,
+#stats-section .view-more .more-link,
+#app-section .entry-summary .more-link,
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+#feature-slider-section .more-link,
+.header-media .more-button .more-link,
+.woocommerce .product-container .wc-forward,
+.archive-posts-wrapper  .more-button .more-link {
+	padding: 14px 28px;
+}
+
+.action-buttons .button.is-ghost-button,
+.custom-header-media .more-button .more-link.is-ghost-button {
+    padding: 14px 28px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+form div.fes-form .fes-el .fes-fields input[type="text"],
+form div.fes-form .fes-el .fes-fields input[type="password"],
+form div.fes-form .fes-el .fes-fields input[type="email"],
+form div.fes-form .fes-el .fes-fields input[type="url"],
+form div.fes-form .fes-el .fes-fields input[type="number"],
+form div.fes-form .fes-el .fes-fields textarea {
+	padding: 12px 14px;
+}
+
+.widget-column.above-footer {
+	padding-bottom: 0;
+}
+
+.sidebar .ewnewsletter .widget-inner-wrap {
+	padding: 0;
+}
+
+.archive-posts-wrapper .section-content-wrapper .entry-content p {
+    margin: 0;
+}
+
+.edd-review-body {
+	padding: 30px;
+}
+
+.section-tagline p {
+	margin-bottom: 0;
+}
+
+.playlist-content-wrapper .entry-title {
+    margin-bottom: 15px;
+}
+
+.archive-posts-wrapper .section-content-wrapper {
+	padding: 0;
+}
+
+.single .site-content #primary,
+.page .site-content #primary,
+.two-columns-layout .site-content #secondary,
+.error404 .site-content #primary {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.single .site-content .content-area .hentry,
+.page .site-content .content-area .hentry {
+	padding: 0;
+}

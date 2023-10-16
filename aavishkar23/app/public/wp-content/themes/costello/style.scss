@@ -1,0 +1,156 @@
+/*
+Theme Name: Costello
+Theme URI: https://catchthemes.com/themes/costello/
+Author: Catch Themes
+Author URI: https://catchthemes.com/
+Description: Costello is a Free Modern Portfolio WordPress theme that comes with a modern responsive design and highly customizable features and functionalities. It is a great choice for all kinds of professionals to build a portfolio website. This high-quality WP theme has a portfolio layout as well as many customizable sections that allow you to present your past projects and your agencies in the most visually-aesthetic manner. Costello can be used by creative agencies, freelancers, photographers, illustrators, and similar professionals. Along with the responsive modern design, this theme also includes an extensive theme options panel that allows you to tweak colors, fonts, backgrounds, and more. Costello comes with many highly customizable features and sections. For instance, Featured Content, Services, Portfolio, Testimonial, Featured Slider, Hero Content, and more. All of these mentioned sections are fully responsive and looks absolutely stunning across all devices. In addition, you can also add in your featured sliders and galleries. Costello is the best modern Portfolio WordPress theme to display your portfolio with the highest quality and finest flexibility.  For more information, check out Theme Instructions at https://catchthemes.com/themes/costello/#theme-instructions/ and Demo at https://catchthemes.com/demo/costello/.
+Requires at least: 5.6
+Requires PHP: 5.6
+Tested up to: 6.0
+Version: 1.1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: grid-layout, one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, blog, photography, portfolio
+Text Domain: costello
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Typography
+ 	* 2.1 - Font Awesome
+ 	* 2.2 - Font Family
+ 	* 2.3 - Font Size
+ 	* 2.4 - Heading
+ * 3.0 - Core
+ 	* 3.1 - Elements
+ 	* 3.2 - Icons
+ 	* 3.3 - Lists
+ 	* 3.4 - Padding/Margin
+ * 4.0 - Forms
+ * 5.0 - Navigation
+     *  5.1 - Next/Previous
+     *  5.2 - Menus
+     *  5.3 - Header
+ * 6.0 - Modules
+	 * 6.1 - Accessibility
+	 * 6.2 - Alignments
+	 * 6.3 - breadcrumbs
+	 * 6.4 - captions
+	 * 6.5 - clearings
+	 * 6.6 - content
+	 * 6.7 - media
+	 * 6.8 - scroll-up
+	 * 6.9 - sidebar
+ * 7.0 - Site
+ 	* 7.1 - Primary
+ 	  * 7.1.1 - Comments
+ 	  * 7.1.2 - post and navigation
+ 	* 7.2 - Primary
+ 	  * 7.2.1 - Widgets
+
+ 	* 7.3 - Section
+	 	* 7.3.1 - App section
+	 	* 7.3.2 - Audio Player
+	 	* 7.3.3 - Contact
+	 	* 7.3.4 - Events
+		* 7.3.5  - Feature Slider
+		* 7.3.6  - Feature Content
+		* 7.3.7  - Footer
+	 	* 7.3.8  - Gallery
+	 	* 7.3.9  - Hero Content
+		* 7.3.10 - Logo Slider
+		* 7.3.11 - Newsletter
+		* 7.3.12 - Playlist
+		* 7.3.13 - Portfolio
+		* 7.3.14 - Promotional
+		* 7.3.15 - Services
+		* 7.3.16 - Sticky Playlist
+		* 7.3.17 - Team
+		* 7.3.18 - Testimonials
+		* 7.3.19 - Woocommerce
+		 *  7.3.19.1 - Clearing
+		 *  7.3.19.2 - Layout
+		 *  7.3.19.3 - Shop tables
+		 *  7.3.19.4 - Products
+		 *  7.3.19.5 - Infinite Scroll
+		 *  7.3.19.6 - Onsale
+		 *  7.3.19.7 - Price
+		 *  7.3.19.8 - Buttons
+		 *  7.3.19.9 - Single product
+		 *  7.3.19.10 - Checkout
+		 *  7.3.19.11 - My account
+		 *  7.3.19.12 - General WooCommerce components
+		 *      7.3.19.12.1 - Header cart
+		 *      7.3.19.12.2 - Pagination
+		 *      7.3.19.12.3 - Star rating
+		 *      7.3.19.12.4 - Tabs
+		 *      7.3.19.12.5 - Password strength meter
+		 *      7.3.19.12.6 - Forms
+		 *      7.3.19.12.7 - Notices
+		 *      7.3.19.12.8 - WooCommerce widgets
+		 *             7.3.19.12.8.1 - WooCommerce Price Filter
+ * 8.0 - Media Queries
+ *	  8.1 - >= 480px
+ *    8.2 - >= 568px
+ *    8.3 - >= 768px
+ *    8.4 - >= 783px
+ *    8.5 - >= 1024px
+ *    8.6 - >= 1200px
+ *	  8.7 - >= 1366px
+ *    8.8 - >= 1440px
+ *    8.9 - >= 1600px
+ *    8.10 - >= 1920px
+ * 9.0 - Transition
+ * 10.0 - Colors
+ */
+
+//** - Normalize **//
+
+@import 'sass/normalize';
+
+//** - Variables **//
+
+@import 'sass/variables/variables';
+
+//** - Mixin **//
+
+@import 'sass/mixin/mixin';
+
+//** Typography **//
+
+@import 'sass/typography/typography';
+
+//** - Elements **//
+
+@import 'sass/elements/core';
+
+//** - Forms **//
+
+@import 'sass/forms/forms';
+
+//** - Navigation **//
+
+@import 'sass/navigation/navigation';
+
+
+//** Modules **//
+
+@import 'sass/modules/modules';
+
+
+//** Sites **//
+
+@import 'sass/site/site';
+
+//** - Media **//
+
+@import 'sass/media/media';
+
+//** - Color Selection **//
+
+@import 'sass/color-section';

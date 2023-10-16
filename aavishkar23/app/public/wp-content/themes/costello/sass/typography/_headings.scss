@@ -1,0 +1,67 @@
+/**
+ * 2.4 - Heading
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-weight: 700;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+	font-stretch: normal;
+	letter-spacing: normal;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	&:first-child{
+		margin-top: 0;
+	}
+}
+
+.section-title,
+#footer-instagram .widget-title,
+.custom-header-content .section-title,
+.app-section .section-title,
+.hero-section .entry-title,
+.promotion-section .entry-title,
+.gallery-section .entry-title,
+.edd-single-product-container .product-title,
+.promotion-contact .entry-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.25;
+}
+
+h1 {
+	line-height: 1.33;
+}
+
+h2 {
+	line-height: 1.43;
+}
+
+h3 {
+	line-height: 1.36;
+}
+
+h4 {
+	line-height: 1.25;
+}
+
+h5 {
+	line-height: 1.17;
+}
+
+h6 {
+	line-height: 1.56;
+}

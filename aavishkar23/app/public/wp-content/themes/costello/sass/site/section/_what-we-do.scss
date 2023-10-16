@@ -1,0 +1,108 @@
+/**
+ * 7.3.17 - What we do
+ */
+
+ /* Default CSS for Tabs */
+
+.container--tabs .nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  list-style-type: none;
+}
+
+.container--tabs .nav-tabs > li,
+.container--tabs .nav-tabs > li > a {
+  float: left;
+}
+
+.container--tabs .tab-content {
+  float: left;
+  padding-top: 28px;
+  width: 100%;
+}
+
+.container--tabs .tab-content > .tab-pane {
+  display: none;
+}
+
+.container--tabs .tab-content > .active {
+  display: block;
+}
+
+.container--tabs .nav-tabs > li.active > a,
+.container--tabs .nav-tabs > li.active > a:hover,
+.container--tabs .nav-tabs > li.active > a:focus {
+  cursor: default;
+}
+
+
+/* Custom CSS for Tabs */
+
+.container--tabs .tab-content > .tab-pane .hentry-inner {
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+          -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.section .container--tabs .hentry {
+    float: none;
+    padding: 0;
+}
+
+.container--tabs .nav-tabs > li > a > span.what-we-do-icon-image {
+  margin-bottom: 10px;
+}
+
+.what-we-do-title {
+  font-weight: 700;
+}
+
+.container--tabs .nav-tabs > li {
+  margin-bottom: 14px;
+  /*margin-right: 14px;*/
+}
+
+.container--tabs .nav-tabs > li > a > span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container--tabs .nav-tabs > li > a {
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.container--tabs .tab-pane .entry-content ul li,
+.container--tabs .tab-pane .entry-summary ul li {
+    content: "\2713";
+}
+
+/*Colors*/
+
+.container--tabs .nav-tabs > li > a {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.container--tabs .nav-tabs > li.active > a {
+  background-image: linear-gradient(to left, #e03ae0, #f95042);
+  color: #fff  
+}
+
+.container--tabs .nav-tabs > li.active > a,
+.container--tabs .nav-tabs > li.active > a:hover,
+.container--tabs .nav-tabs > li.active > a:focus {
+  color: #fff;
+  background-color: #fff;
+}

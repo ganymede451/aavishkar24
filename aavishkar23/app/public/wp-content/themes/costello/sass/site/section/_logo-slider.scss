@@ -1,0 +1,90 @@
+/**
+ * 7.3.10 - Logo Slider
+ */
+
+#costello-logo-slider-section .owl-prev,
+#costello-logo-slider-section .owl-next {
+    border: 1px solid transparent;
+    @include border(50%);
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 40px;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 7px;
+    position: absolute;
+    bottom: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-decoration: none;
+    width: 40px;
+    z-index: 199;
+}
+
+.costello-logo-slider-content-wrapper.owl-carousel .owl-item img {
+    margin: 0 auto;
+    width: auto;
+}
+
+.costello-logo-slider-content-wrapper.owl-carousel .owl-item .hentry-inner {
+    text-align: center;
+}
+
+#costello-logo-slider-section .owl-prev:before,
+#costello-logo-slider-section .owl-next:before {
+    transition-delay: 0.1s;
+    opacity: 0;
+}
+
+#costello-logo-slider-section .owl-prev:before {
+    transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#costello-logo-slider-section .owl-next:before {
+    transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+}
+
+#costello-logo-slider-section {
+    &:hover button:before {
+        transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#costello-logo-slider-section:hover .owl-prev,
+#costello-logo-slider-section:focus .owl-prev,
+#costello-logo-slider-section:hover .owl-next,
+#costello-logo-slider-section:focus .owl-next {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#costello-logo-slider-section .owl-dots {
+    text-align: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.costello-logo-slider-content-wrapper .entry-title span:hover {
+    cursor: pointer;
+}
+
+#costello-logo-slider-section .owl-next {
+    right: 0;
+}

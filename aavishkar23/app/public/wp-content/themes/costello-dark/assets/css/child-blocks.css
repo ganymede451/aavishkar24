@@ -1,0 +1,252 @@
+/*
+Theme Name: costello Pro
+Description: Used to style Gutenberg Blocks.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Blocks - General Styles
+2.0 Blocks - Common Blocks
+3.0 Blocks - Formatting
+4.0 Blocks - Layout Elements
+5.0 Blocks - Widgets
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+figure.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+	background-color: #1e1e1e;
+}
+
+.wp-block-pullquote.is-style-solid-color {
+	background-color: #292929;
+	border: 0;
+}
+
+.is-gradient-button .wp-block-file__button,
+.is-gradient-button .wp-block-button__link {
+	background-image: linear-gradient(to left, #e86a3d, #e75743);
+}
+
+.wp-block-table.is-style-stripes th {
+	border-bottom: 1px solid#323232;
+}
+
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link {
+	background-color: #ffffff;
+	color: #000;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+	background-image: none;
+	color: #fff;
+}
+
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus,
+.is-style-outline .more-link:hover,
+.is-style-outline .more-link:focus,
+.is-style-outline .button:hover,
+.is-style-outline .button:focus {
+	border-color: transparent;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: #333;
+	color: #fff;
+	background-image: none;
+}
+
+.wp-block-table,
+.wp-block-table caption,
+.wp-block-table th,
+.wp-block-table td,
+.wp-block-table tfoot {
+	border-color: #323232;
+}
+
+.wp-block-pullquote,
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright,
+blockquote.wp-block-quote.is-large,
+blockquote.wp-block-quote.is-style-large,
+blockquote.wp-block-quote {
+	border-color: #666666;
+}
+
+blockquote.wp-block-quote:before {
+	color:  #666666;
+}
+
+.wp-block-latest-comments__comment-date,
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption {
+	color: #999;
+}
+
+/* 1. White Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-white-color cite,
+.wp-block-button .wp-block-button__link.has-white-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color,
+.has-white-color {
+	color: #ffffff;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-white-background-color,
+.wp-block-button .wp-block-button__link.has-white-background-color,
+.has-white-background-color {
+	background-color: #ffffff;
+}
+
+.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color {
+	border-color: #ffffff;
+}
+
+/* 2. Black Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-black-color cite,
+.wp-block-button .wp-block-button__link.has-black-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color,
+.has-black-color {
+	color: #000000;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-black-background-color,
+.wp-block-button .wp-block-button__link.has-black-background-color,
+.has-black-background-color {
+	background-color: #000000;
+}
+
+.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color {
+	border-color: #000000;
+}
+
+/* 3. Medium Black Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-medium-black-color cite,
+.wp-block-button .wp-block-button__link.has-medium-black-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-medium-black-color,
+.wp-block-button__link.is-style-outline.has-medium-black-color,
+.has-medium-black-color {
+	color: #222222;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-medium-black-background-color,
+.wp-block-button .wp-block-button__link.has-medium-black-background-color,
+.has-medium-black-background-color {
+	background-color: #222222;
+}
+
+.is-style-outline > .wp-block-button__link.has-medium-black-color,
+.wp-block-button__link.is-style-outline.has-medium-black-color {
+	border-color: #222222;
+}
+
+/* 4. Gray Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-gray-color cite,
+.wp-block-button .wp-block-button__link.has-gray-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-gray-color,
+.wp-block-button__link.is-style-outline.has-gray-color,
+.has-gray-color {
+	color: #999999;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-gray-background-color,
+.wp-block-button .wp-block-button__link.has-gray-background-color,
+.has-gray-background-color {
+	background-color: #999999;
+}
+
+.is-style-outline > .wp-block-button__link.has-gray-color,
+.wp-block-button__link.is-style-outline.has-gray-color {
+	border-color: #999999;
+}
+
+/* 5. Light Gray Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-light-gray-color cite,
+.wp-block-button .wp-block-button__link.has-light-gray-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-light-gray-color,
+.wp-block-button__link.is-style-outline.has-light-gray-color,
+.has-light-gray-color {
+	color: #f8f8f8;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-light-gray-background-color,
+.wp-block-button .wp-block-button__link.has-light-gray-background-color,
+.has-light-gray-background-color {
+	background-color: #f8f8f8;
+}
+
+.is-style-outline > .wp-block-button__link.has-light-gray-color,
+.wp-block-button__link.is-style-outline.has-light-gray-color {
+	border-color: #f8f8f8;
+}
+
+/* 6. Orange Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-orange-color cite,
+.wp-block-button .wp-block-button__link.has-orange-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-orange-color,
+.wp-block-button__link.is-style-outline.has-orange-color,
+.has-orange-color {
+	color: #f95042;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-orange-background-color,
+.wp-block-button .wp-block-button__link.has-orange-background-color,
+.has-orange-background-color {
+	background-color: #f95042;
+}
+
+.is-style-outline > .wp-block-button__link.has-orange-color,
+.wp-block-button__link.is-style-outline.has-orange-color {
+	border-color: #f95042;
+}
+
+/* 7. Pink Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-pink-color cite,
+.wp-block-button .wp-block-button__link.has-pink-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-pink-color,
+.wp-block-button__link.is-style-outline.has-pink-color,
+.has-pink-color {
+	color: #e03ae0;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-pink-background-color,
+.wp-block-button .wp-block-button__link.has-pink-background-color,
+.has-pink-background-color {
+	background-color: #e03ae0;
+}
+
+.is-style-outline > .wp-block-button__link.has-pink-color,
+.wp-block-button__link.is-style-outline.has-pink-color {
+	border-color: #e03ae0;
+}

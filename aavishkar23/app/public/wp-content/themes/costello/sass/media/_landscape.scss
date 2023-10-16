@@ -1,0 +1,20 @@
+
+/**
+ * 8.5 - >= 783px
+ */
+
+@include media(landscape) {
+
+/*	.admin-bar #feature-slider-section,
+	.admin-bar #feature-slider-section,
+	.home.admin-bar .custom-header {
+		min-height: calc(100vh - 32px);
+	}*/
+
+	.admin-bar .flashy-overlay .flashy-close {
+		top: 32px;
+	}
+
+
+
+}

@@ -1,0 +1,28 @@
+/**
+ * 6.9 - Sidebar
+ */
+
+.widget .hentry {
+	float: left;
+	width: 100%;
+}
+
+.widget a {
+	text-decoration: none;
+}
+
+.sidebar .widget {
+	clear: both;
+	transition: margin-bottom 0.3s;
+}
+
+.textwidget ul {
+	margin: 0;
+}
+
+.ew-tabbed-recent-popular li:before,
+.textwidget li:before,
+.footer-navigation li:before,
+.social-navigation li:before {
+	display: none;
+}

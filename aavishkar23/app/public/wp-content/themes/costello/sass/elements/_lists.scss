@@ -1,0 +1,25 @@
+/**
+ * 3.3 - lists
+ */
+
+#colophon ul {
+	margin: 0;
+}
+
+ul,
+ol {
+	padding: 0;
+}
+
+/*ol ol,
+ul ul{
+	margin: 35px;
+}*/
+
+ul li >  ul,
+ol li >  ol,
+ul li >  ol,
+ol li >  ul{
+	margin-top: 0;
+	margin-bottom:0;
+}

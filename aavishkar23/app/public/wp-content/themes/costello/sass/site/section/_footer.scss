@@ -1,0 +1,80 @@
+/**
+ * 7.3.7 - Footer
+ */
+
+.widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#colophon .widget {
+    background-color: transparent;
+}
+
+body #colophon .widget-column.above-footer {
+    width: 100%;
+}
+
+#social-footer-navigation,
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.site-info {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.site-footer .social-links-menu a {
+    border: 1px solid;
+    margin: 0 3px;
+}
+
+.site-footer .widget-wrap .sub-menu {
+    display: none;
+}
+
+.ewnewsletter .ew-newsletter-wrap #subbutton {
+    border: none
+}
+
+.site-footer .widget {
+    margin-bottom: 0;
+}
+
+#site-footer-navigation + #social-footer-navigation {
+    margin-top: 28px;
+}
+
+.site-footer .widget article.page {
+    margin-bottom: 14px;
+}
+
+.site-footer .hentry .excerpt {
+    margin-top: 7px;
+}
+// .site-footer {
+//     input[type="date"],
+//     input[type="time"],
+//     input[type="datetime-local"],
+//     input[type="week"],
+//     input[type="month"],
+//     input[type="text"],
+//     input[type="email"],
+//     input[type="url"],
+//     input[type="password"],
+//     input[type="search"],
+//     input[type="tel"],
+//     input[type="number"],
+//     textarea {
+//         background-color: transparent;
+//         border: 1px solid;
+//         box-shadow: none;
+//     }
+// }

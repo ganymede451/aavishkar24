@@ -1,0 +1,105 @@
+/**
+ * 7.3.8 - Gallery Section
+ */
+
+#gallery-section {
+    border-bottom: none;
+}
+
+#gallery-section.no-headline {
+    padding-top: 0;
+}
+
+#gallery-section.no-headline.no-view-more-button {
+    padding: 0;
+}
+
+#gallery-section.no-headline.no-view-more-button .hentry {
+    margin: 0;
+}
+
+.tiled-gallery-caption,
+.gallery-caption {
+    z-index: 99;
+}
+
+#gallery-section .gallery-item .gallery-icon a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#gallery-section .gallery-item .gallery-icon a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-size: 1.125rem;
+    height: 42px;
+    padding: 12px;
+    width: 42px;
+    text-align: center;
+    z-index: 2;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gallery-section .gallery-item .gallery-icon a:before,
+#gallery-section .gallery-item .gallery-icon a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+    opacity: 0;
+}
+
+#gallery-section .gallery-item .gallery-icon:hover a:before,
+#gallery-section .gallery-item .gallery-icon:focus a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:before {
+    opacity: 0.3;
+}
+
+#gallery-section .gallery-item .gallery-icon:hover a:after,
+#gallery-section .gallery-item .gallery-icon:focus a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:after {
+    opacity: 1;
+}
+
+#gallery-section .entry-content > *:not(div) {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery-section .gallery-item {
+    float: left;
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+
+    a {
+        display: block;
+        position: relative;
+    }
+}
+
+.gallery-caption {
+    padding: 15px;
+    width: 100%;
+    z-index: 99;
+}
+
+#gallery-section .section-content-wrapper .entry-content {
+    margin: 0;
+}

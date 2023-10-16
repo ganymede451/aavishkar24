@@ -1,0 +1,99 @@
+/**
+ * 6.0 - Modules
+ */
+
+.section,
+#footer-newsletter .ewnewsletter .widget-wrap {
+	clear: both;
+	display: block;
+	padding: 42px 0 14px 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contact-form-section.has-map .post-thumbnail {
+	margin-bottom: 0;
+    padding-bottom: 42px;
+}
+
+body:not(.home) .site-content > .wrapper,
+body:not(.home) .site-content .archive-content-wrap {
+    padding: 42px 15px 14px 15px;
+}
+
+.home .site-content > .wrapper {
+	padding: 42px 15px 14px 15px;
+}
+
+.section-heading-wrapper {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 30px 28px 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.sidebar .section-heading-wrapper,
+.site-footer .section-heading-wrapper {
+	padding: 0;
+	text-align: left;
+}
+
+#testimonial-content-section .owl-slideshow {
+	overflow: hidden;
+}
+
+#product-content-section,
+#portfolio-content-section,
+#service-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*-------------------------------------------------------------
+## accessibility
+--------------------------------------------------------------*/
+@import 'accessibility';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'alignments';
+
+/*--------------------------------------------------------------
+## breadcrumbs
+--------------------------------------------------------------*/
+@import 'breadcrumbs';
+
+/*--------------------------------------------------------------
+## captions
+--------------------------------------------------------------*/
+@import 'captions';
+
+/*--------------------------------------------------------------
+## clearings
+--------------------------------------------------------------*/
+@import 'clearings';
+
+/*--------------------------------------------------------------
+## content
+--------------------------------------------------------------*/
+@import 'content';
+
+/*--------------------------------------------------------------
+## media
+--------------------------------------------------------------*/
+@import 'media';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'scroll-up';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'sidebar';

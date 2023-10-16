@@ -1,0 +1,214 @@
+/**
+ * 5.2 - Post Navigation
+ */
+
+.post-navigation {
+    border-bottom: 1px solid;
+    clear: both;
+    padding-bottom: 28px;
+}
+
+.post-navigation a {
+    display: block;
+    text-decoration: none;
+}
+
+.post-navigation .meta-nav {
+    display: block;
+    letter-spacing: 0.083em;
+    margin-bottom: 0.583em;
+    text-transform: uppercase;
+}
+
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+
+.posts-navigation .nav-links div:nth-child(1):nth-last-child(2),
+.posts-navigation .nav-links div:nth-child(2):nth-last-child(1),
+.post-navigation .nav-links div:nth-child(1):nth-last-child(2),
+.post-navigation .nav-links div:nth-child(2):nth-last-child(1) {
+    width: 100%;
+}
+
+.post-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-next,
+.posts-navigation .nav-next {
+    text-align: center;
+}
+
+.post-navigation .post-title {
+    font-weight: 700;
+    display: block;
+    text-rendering: optimizeLegibility;
+}
+
+.image-navigation,
+.comment-navigation {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+    margin: 0 7.6923% 2.1538461538em;
+    padding: 1.0769230769em 0;
+}
+
+.comment-navigation {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.comments-title + .comment-navigation {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.image-navigation .nav-previous:not(:empty),
+.image-navigation .nav-next:not(:empty),
+.comment-navigation .nav-previous:not(:empty),
+.comment-navigation .nav-next:not(:empty) {
+    display: inline-block;
+}
+
+.image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
+.comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
+    content: "\002f";
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 0.538461538em;
+}
+
+.posts-navigation,
+.pagination,
+#content #infinite-handle {
+    clear: both;
+    text-align: center;
+}
+
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next {
+    width: 100%;
+    line-height: normal;
+}
+
+.pagination .page-numbers.prev:hover,
+.pagination .page-numbers.prev:focus,
+.pagination .page-numbers.next:hover,
+.pagination .page-numbers.next:focus {
+    text-decoration: none;
+}
+
+#content #infinite-handle span.ctis-load-more {
+    line-height: normal;
+}
+
+.infinite-loader #ctis-loading img {
+    width: 35px;
+}
+
+.posts-navigation,
+.pagination {
+    margin: 0 0 28px 0;
+    padding: 0 15px;
+}
+
+#content #infinite-handle,
+#content .infinite-loader {
+    clear: both;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    bottom: -44px;
+}
+
+body.infinite-scroll .archive-posts-wrapper .section-content-wrapper {
+    padding-bottom: 72px;
+}
+
+body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrapper {
+    padding-bottom: 0;
+}
+
+.infinite-loader #ctis-loading img {
+    width: 35px;
+}
+
+.infinite-loader {
+    clear: both;
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    font-weight: 700;
+    margin: 7px 0;
+    padding: 14px 18px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.post-navigation a {
+    display: block;
+    text-decoration: none;
+}
+
+.post-navigation span {
+    display: block;
+}
+
+.post-navigation .nav-subtitle {
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+
+.post-navigation .nav-title {
+    display: block;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    transition: 0.3s;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+    position: relative;
+    vertical-align: top;
+}
+
+.archive-posts-wrapper .section-content-wrapper {
+    position: relative;
+}
+
+.costello-logo-slider-section .owl-carousel .owl-nav button.owl-next,
+.costello-logo-slider-section .owl-carousel .owl-nav button.owl-prev,
+.costello-logo-slider-section .owl-carousel button.owl-dot {
+    padding: 7px;
+    margin: 4px;
+}
+
+.post-navigation .nav-title:hover {
+    text-decoration: underline;
+}
+.nav-previous:hover svg {
+    margin-right: 7px;
+}
+.nav-next:hover svg {
+    margin-left: 7px;
+}
+.nav-links svg {
+    transition: all 0.4s;
+}

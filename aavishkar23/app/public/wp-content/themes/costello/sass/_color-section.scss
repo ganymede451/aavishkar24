@@ -1,0 +1,1277 @@
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+/**
+ * 10.0 - Color
+ */
+
+/* Background Color */
+
+body {
+    background-color: map-get($theme-background-color, body-background-color);
+}
+
+/* Header Text Color */
+.site-title a,
+.site-description {
+   color: map-get($theme-color, header-text-color);
+}
+
+/* Page Background Color */
+.site-header.scrollDown,
+.sidebar textarea,
+.sidebar select,
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond input[type="url"],
+.comment-respond input[type="password"],
+.comment-respond input[type="search"],
+.comment-respond input[type="number"],
+.comment-respond input[type="tel"],
+.comment-respond input[type="range"],
+.comment-respond input[type="date"],
+.comment-respond input[type="month"],
+.comment-respond input[type="week"],
+.comment-respond input[type="time"],
+.comment-respond input[type="datetime"],
+.comment-respond input[type="datetime-local"],
+.comment-respond input[type="color"],
+.comment-respond textarea,
+.comment-respond select,
+.footer-newsletter input[type="text"],
+.footer-newsletter input[type="email"],
+.footer-newsletter input[type="url"],
+.footer-newsletter input[type="password"],
+.footer-newsletter input[type="search"],
+.footer-newsletter input[type="number"],
+.footer-newsletter input[type="tel"],
+.footer-newsletter input[type="range"],
+.footer-newsletter input[type="date"],
+.footer-newsletter input[type="month"],
+.footer-newsletter input[type="week"],
+.footer-newsletter input[type="time"],
+.footer-newsletter input[type="datetime"],
+.footer-newsletter input[type="datetime-local"],
+.footer-newsletter input[type="color"],
+.footer-newsletter textarea,
+.footer-newsletter select,
+.menu-inside-wrapper input[type="search"],
+.select2-container--default .select2-selection--single,
+.screen-reader-text:focus,
+.boxed-layout .site,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+#gallery-section .gallery-item .gallery-icon:hover a:after,
+#gallery-section .gallery-item .gallery-icon:focus a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:after,
+.costello-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-time-handle-content,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-panel,
+.section:nth-child(2n).testimonial-content-section.style-two .hentry-inner,
+.section:nth-child(2n).pricing-section .hentry-inner,
+.section:nth-child(2n).stats-section.style-one .hentry-inner,
+.portfolio-content-wrapper .entry-container > .inner-wrap,
+.testimonial-content-section::before,
+button#custom-video-button,
+.site-header-menu button#close-button:hover,
+.contact-us-form input[type="text"],
+.contact-us-form input[type="email"],
+.contact-us-form input[type="url"],
+.contact-us-form input[type="password"],
+.contact-us-form input[type="search"],
+.contact-us-form input[type="number"],
+.contact-us-form input[type="tel"],
+.contact-us-form input[type="range"],
+.contact-us-form input[type="date"],
+.contact-us-form input[type="month"],
+.contact-us-form input[type="week"],
+.contact-us-form input[type="time"],
+.contact-us-form input[type="datetime"],
+.contact-us-form input[type="datetime-local"],
+.contact-us-form input[type="color"],
+.contact-us-form textarea {
+    background-color: map-get($theme-background-color, primary-background-color);
+}
+
+/* Secondary Background Color */
+body.boxed-layout:before,
+.menu-inside-wrapper,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+.sidebar input[type="text"],
+.sidebar input[type="email"],
+.sidebar input[type="url"],
+.sidebar input[type="password"],
+.sidebar input[type="search"],
+.sidebar input[type="number"],
+.sidebar input[type="tel"],
+.sidebar input[type="range"],
+.sidebar input[type="date"],
+.sidebar input[type="month"],
+.sidebar input[type="week"],
+.sidebar input[type="time"],
+.sidebar input[type="datetime"],
+.sidebar input[type="datetime-local"],
+.sidebar input[type="color"],
+.author-info,
+#footer-newsletter,
+mark,
+.custom-header,
+ul.tabs.wc-tabs li.active a,
+.woocommerce-Tabs-panel,
+.shop_table thead th,
+ul.wc_payment_methods.payment_methods.methods li,
+.comment-respond,
+.widget_shopping_cart,
+pre,
+.section:nth-child(2n).testimonial-content-section::before,
+.widget .ui-tabs .ui-tabs-panel,
+#sticky-playlist-section, #sticky-playlist-section .wp-playlist,
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li a,
+.section:nth-child(2n+1),
+.testimonial-content-section.style-two .hentry-inner,
+.pricing-section .hentry-inner,
+.stats-section.style-one .hentry-inner,
+.page .site-main .entry-footer .entry-meta > span:not(.edit-link) a,
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a,
+.archive-post-wrap .entry-container,
+.section:nth-child(2n) .contact-us-form input[type="text"],
+.section:nth-child(2n) .contact-us-form input[type="email"],
+.section:nth-child(2n) .contact-us-form input[type="url"],
+.section:nth-child(2n) .contact-us-form input[type="password"],
+.section:nth-child(2n) .contact-us-form input[type="search"],
+.section:nth-child(2n) .contact-us-form input[type="number"],
+.section:nth-child(2n) .contact-us-form input[type="tel"],
+.section:nth-child(2n) .contact-us-form input[type="range"],
+.section:nth-child(2n) .contact-us-form input[type="date"],
+.section:nth-child(2n) .contact-us-form input[type="month"],
+.section:nth-child(2n) .contact-us-form input[type="week"],
+.section:nth-child(2n) .contact-us-form input[type="time"],
+.section:nth-child(2n) .contact-us-form input[type="datetime"],
+.section:nth-child(2n) .contact-us-form input[type="datetime-local"],
+.section:nth-child(2n) .contact-us-form input[type="color"],
+.section:nth-child(2n) .contact-us-form textarea {
+    background-color: map-get($theme-background-color, secondary-background-color);
+}
+
+@include media(large) {
+    .navigation-classic .site-header .sub-menu,
+    .navigation-classic .site-header .children {
+        background-color: map-get($theme-background-color, secondary-background-color);
+    }
+}
+
+/* Tertiary Background */
+.events-content-wrapper .entry-meta,
+.tagcloud a,
+.pagination .page-numbers,
+.playlist-content-wrapper .wp-playlist .mejs-container,
+#gallery-section .gallery-item .gallery-icon a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before,
+.playlist-content-wrapper .wp-playlist .wp-playlist-tracks > div:hover,
+.playlist-content-wrapper .wp-playlist .wp-playlist-tracks > div:focus,
+.gallery-caption {
+    background-color: map-get($theme-background-color, tertiary-background-color);
+}
+
+/* Footer Background Color */
+
+#site-generator,
+ins,
+#colophon,
+.app-section .entry-container:after,
+#costello-logo-slider-section .owl-dots .owl-dot.active {
+    background-color: map-get($theme-background-color, footer-background-color);
+}
+
+
+/* Custom Header and Slider Text Color */
+.has-header-image .custom-header-content .entry-title,
+.has-header-image .custom-header-content .section-tagline,
+.has-header-image .custom-header-content .site-header-text,
+.has-header-image .custom-header-content-wrapper .section-title span,
+#feature-slider-section .entry-title a,
+#feature-slider-section .section-tagline,
+.feature-slider-section .entry-title,
+.feature-slider-wrapper .entry-container .entry-summary,
+.feature-slider-wrapper .entry-container .entry-content,
+.feature-slider-wrapper .entry-meta span,
+#feature-slider-section .entry-meta a:hover,
+#feature-slider-section .entry-meta a:focus,
+.custom-header-media .entry-meta a {
+    color: map-get($theme-color, custom-header-slider-text-color);
+}
+
+/* Custom Header and Slider Hover Color */
+.has-header-image .custom-header-content .entry-title:focus,
+.has-header-image .custom-header-content .entry-title:focus,
+#feature-slider-section .entry-title a:hover,
+#feature-slider-section .entry-title a:focus {
+    color: map-get($theme-color, custom-header-slider-text-hover-color);
+}
+
+
+/* Main Text Color */
+
+body,
+input,
+select,
+optgroup,
+textarea,
+table a,
+textarea::placeholder,
+input::placeholder,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+cite,
+section.ew-tabbed-recent-popular .ui-widget-content,
+#portfolio-content-section .portfolio-content-wrapper .filter-button-group button,
+.menu-inside-wrapper .action-buttons > .is-ghost-button,
+form div.fes-form .fes-el .fes-fields input[type="text"],
+form div.fes-form .fes-el .fes-fields input[type="password"],
+form div.fes-form .fes-el .fes-fields input[type="email"],
+form div.fes-form .fes-el .fes-fields input[type="url"],
+form div.fes-form .fes-el .fes-fields input[type="number"],
+form div.fes-form .fes-el .fes-fields textarea,
+.testimonial-content-section  button .icon {
+    color: map-get($theme-color, main-text-color);
+}
+
+
+/* Headline Text Color */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+input:focus,
+select:focus,
+optgroup:focus,
+textarea:focus,
+.section-title,
+.scroll-down,
+.drop-cap:first-letter,
+.portfolio-section-headline .section-title,
+.author-name,
+.comment-reply-link,
+.author-title,
+.contact-location-one,
+.contact-location-two,
+.wp-block-search__label,
+.comment-respond .comment-form p label,
+.has-background-image .entry-container .event-title .entry-title,
+.has-background-image .entry-container .event-title .entry-title a,
+section.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+.filter-select-group > span,
+.filters-select select,
+.comments-title,
+.breadcrumb,
+.breadcrumb a,
+.custom-header-content .entry-title,
+.custom-header-content .section-tagline,
+.custom-header-content .site-header-text,
+.custom-header-content-wrapper .section-title span,
+.comment-reply-title,
+.promotion-section.content-color-white .entry-container .entry-title,
+.promotion-section.content-color-white .entry-container .entry-content,
+button#custom-video-button,
+.edd-single-product-container .product-title,
+#tabs.ui-tabs .ui-tabs-nav li a:hover,
+#tabs.ui-tabs .ui-tabs-nav li a:focus,
+#tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+.portfolio-content-wrapper .filter-select-group > span,
+.inner-contact .label {
+    color: map-get($theme-color, theme-heading-color);
+}
+
+.scroll-down:before,
+#testimonial-content-section .owl-dots:before,
+.skillbar-bar {
+    background-color: map-get($theme-color, theme-heading-color);
+}
+
+.portfolio-content-wrapper .filters-select-wrap:after {
+    border-top-color: map-get($theme-color, theme-heading-color);
+}
+
+
+
+/* Link Color */
+a,
+.page-links a,
+.nav-title,
+.post-title,
+.menu-toggle,
+.main-navigation a,
+.cart-contents,
+.post-navigation .nav-title,
+.pagination .page-numbers,
+.more-link,
+.more-button .more-link,
+.sidebar .widget-wrap .wp-block-latest-comments__comment li a {
+    color: map-get($theme-color, link-color);
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus,
+.more-link:hover,
+.more-link:focus,
+.post-navigation .nav-title:hover,
+.post-navigation .nav-title:focus {
+    color: map-get($theme-color, link-hover-color);
+}
+
+/* Secondary Link Color */
+.menu-toggle:hover,
+.menu-toggle:focus,
+.cart-contents:hover,
+.cart-contents:focus,
+.site-title a:hover,
+.site-title a:focus,
+ins,
+p.stars a,
+p.stars a:before,
+.controller:before,
+.select2-results__option,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.social-navigation a:hover,
+.social-navigation a:focus,
+.testimonials-content-wrapper.section.testimonial-wrapper .cycle-prev:before,
+.testimonials-content-wrapper.section.testimonial-wrapper .cycle-prev:after,
+.testimonials-content-wrapper.section.testimonial-wrapper .cycle-next:before,
+.clients-content-wrapper .controller .cycle-pager span,
+.testimonials-content-wrapper .cycle-pager:after,
+.testimonials-content-wrapper .entry-title a,
+.testimonials-content-wrapper.section.testimonial-wrapper .hentry,
+.scrollup a:hover:before,
+.scrollup a:focus:before,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a,
+.author-label,
+.section-heading-wrapper .entry-title span,
+.author-section-title,
+.nav-menu .menu-item-has-children>a:before,
+.nav-menu .menu_item_has_children>a:before,
+span.woocommerce-Price-amount,
+.events-content-wrapper .entry-meta a:hover,
+.events-content-wrapper .entry-meta a:focus,
+.sidebar .widget-wrap li a,
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited,
+.sidebar nav.social-navigation ul li a:hover,
+.sidebar nav.social-navigation ul li a:focus,
+.screen-reader-text:focus,
+td#today,
+.toggled-on.active:before,
+.comment-respond .comment-form p.is-focused label,
+.main-navigation .sub-menu a:hover,
+.dropdown-toggle,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.widget_recent_entries li a,
+.wp-caption .wp-caption-text,
+.edd-author .author-title a,
+.fes-vendor-menu-tab a,
+.edd-rp-item > a .edd-rp-item-title,
+.action-buttons .button.is-ghost-button,
+.vcard,
+.position,
+.nav-subtitle,
+.entry-meta a,
+.comment-permalink,
+.comment-edit-link,
+.sidebar .widget ul li a,
+.more-button .more-link:hover,
+.more-button .more-link:focus,
+.tagcloud a,
+time.wp-block-latest-comments__comment-date,
+.contact a {
+    color: map-get($theme-color, secondary-link-color);
+}
+
+.main-navigation > ul > li > a::before,
+#feature-slider-section button.owl-dot {
+    background-color: map-get($theme-color, secondary-link-color);
+}
+
+/* Secondary Link Hover Color */
+.more-link,
+.entry-meta a,
+.play-button-text,
+.has-background-image .woocommerce-loop-product__title,
+.has-background-image  .entry-container .entry-meta a,
+.has-background-image  .entry-container .entry-title a,
+.has-background-image .entry-title a,
+.has-background-image .entry-meta a,
+.wp-playlist-tracks .wp-playlist-caption,
+.woocommerce-loop-product__title,
+span.price span.woocommerce-Price-amount,
+.widget_recent_entries li a,
+button#wp-custom-header-video-button,
+.widget .ui-state-default a,
+.widget .ui-widget-content .ui-state-default a,
+.widget .ui-widget-header .ui-state-default a,
+body .site-header .site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .nav-menu ul .current_page_item>a,
+.tag-cloud-link,
+.nav-title,
+.author a,
+.site-footer td#prev a,
+.site-footer td#next a,
+.author-section-title,
+.comment-permalink,
+.comment-edit-link,
+.nav-subtitle,
+.entry-meta a,
+.scroll-down,
+.testimonials-content-wrapper.section.testimonial-wrapper .entry-title a,
+.widget-wrap li a,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a,
+.costello-logo-slider-content-wrapper .entry-title span,
+.wp-playlist .mejs-controls .mejs-button button,
+#sticky-playlist-section .mejs-container.costello-mejs-container .mejs-toggle-playlist button,
+.fes-vendor-menu-tab a,
+.sidebar .widget ul li a,
+#portfolio-content-section .portfolio-content-wrapper .filter-button-group button,
+.contact a {
+    &:hover,
+    &:focus {
+        color: map-get($theme-color, secondary-link-hover-color);
+    }
+}
+
+p.stars:hover a:before,
+p.stars:focus a:before,
+.star-rating span:before,
+p.stars.selected a.active:before,
+p.stars.selected a:not(.active):before,
+p.stars.selected a.active~a:before,
+p.stars a:hover~a:before,
+p.stars a:focus~a:before,
+#reviews .comment-respond .comment-form-rating .stars span a.active:before,
+#reviews .comment-respond .comment-form-rating .stars.selected span a:not(.active):before,
+#promotion-section .play-button,
+.section-tagline,
+.section-subtitle,
+#feature-slider-section .entry-meta a,
+.archive-post-wrap .hentry .entry-meta > span:hover::before,
+.archive-post-wrap .hentry .entry-meta > span:focus::before,
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus,
+.testimonial-content-section.style-two .entry-header:before,
+.testimonial-content-section.style-one .entry-container:before,
+ul > li::marker,
+.sidebar .social-navigation.ct-social-widget a,
+#portfolio-content-section .portfolio-content-wrapper .filter-button-group button.is-checked {
+    color: map-get($theme-color, secondary-link-hover-color);
+}
+
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a:hover,
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a:focus,
+.portfolio-content-wrapper .filter-button-group button.is-checked:before,
+.portfolio-content-wrapper .inner-wrap:before,
+.ui-state-active a:after,
+body input[type="text"]:focus,
+body input[type="email"]:focus,
+body input[type="url"]:focus,
+body input[type="password"]:focus,
+body input[type="search"]:focus,
+body input[type="number"]:focus,
+body input[type="tel"]:focus,
+body input[type="range"]:focus,
+body input[type="date"]:focus,
+body input[type="month"]:focus,
+body input[type="week"]:focus,
+body input[type="time"]:focus,
+body input[type="datetime"]:focus,
+body input[type="datetime-local"]:focus,
+body input[type="color"]:focus,
+body textarea:focus,
+form div.fes-form .fes-el .fes-fields input[type="text"]:focus,
+form div.fes-form .fes-el .fes-fields input[type="password"]:focus,
+form div.fes-form .fes-el .fes-fields input[type="email"]:focus,
+form div.fes-form .fes-el .fes-fields input[type="url"]:focus,
+form div.fes-form .fes-el .fes-fields input[type="number"]:focus,
+form div.fes-form .fes-el .fes-fields textarea:focus {
+    border-color: map-get($theme-color, secondary-link-hover-color);
+}
+
+#feature-slider-section button.owl-dot.active {
+    background-color: map-get($theme-color, secondary-link-hover-color);
+}
+
+@include media(large) {
+    .navigation-classic .main-navigation .current_page_item > a:before,
+    .navigation-classic .main-navigation .current-menu-item > a:before {
+      border-color: map-get($theme-color, secondary-link-hover-color);
+    }
+}
+
+/* Button Background Color */
+.asc-settings,
+.button,
+.entry-content button,
+.entry-summary button,
+button,
+.archive-posts-wrapper .more-button .more-link,
+#scrollup,
+.slider-content-wrapper .controllers .cycle-prev,
+.slider-content-wrapper .controllers .cycle-next,
+button[type="submit"],
+input[type="submit"],
+.scrollup a,
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link,
+.wp-block-button__link,
+#infinite-handle .ctis-load-more button,
+.menu-inside-wrapper #site-header-cart-wrappe li>a,
+nav.navigation.posts-navigation .nav-links a,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current,
+.archive-content-wrap .pagination .page-numbers.current,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.sticky-label,
+#costello-logo-slider-section .owl-dots .owl-dot,
+#costello-logo-slider-section .owl-prev,
+#costello-logo-slider-section .owl-next,
+.post-page-numbers.current,
+.sticky-post span,
+#hero-section .more-button .more-link,
+#promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.promotion-section .more-link,
+.pricing-section .hentry.highlight .more-button .more-link,
+.pricing-section .popular-tag,
+.woocommerce .product-container .wc-forward,
+#feature-slider-section .more-link,
+.ewnewsletter .hentry form input[type="submit"]:hover,
+.ewnewsletter .hentry form input[type="submit"]:focus,
+form div.fes-form .fes-submit input[type="submit"],
+.demo_store,
+#testimonial-content-section button.owl-dot,
+.header-media .more-button .more-link,
+.tagcloud a:hover,
+.tagcloud a:focus,
+button#custom-video-button:hover,
+button#custom-video-button:focus,
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a:hover,
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a:focus,
+.sidebar .widget.social-navigation a:hover,
+.sidebar .widget.social-navigation a:focus,
+.site-footer .widget.social-navigation a:hover,
+.site-footer .widget.social-navigation a:focus,
+#team-content-section .social-navigation a:hover,
+#team-content-section .social-navigation a:focus {
+    background-color: map-get($button-color, background-button);
+}
+
+@include media(desktop) {
+    #testimonial-content-section button.owl-dot {
+      background-color: transparent;
+    }
+}
+
+.contact-details .contact svg {
+    color: map-get($button-color, background-button);
+}
+
+/* Button Hover Background Color */
+.button,
+#scrollup,
+button,
+.scrollup a,
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link,
+#costello-logo-slider-section .owl-prev,
+#costello-logo-slider-section .owl-next,
+button[type="submit"],
+input[type="submit"],
+#feature-slider-section .owl-nav button:hover,
+#feature-slider-section .owl-nav button:focus,
+.wp-block-button__link,
+.woocommerce .products .product-container .button,
+#infinite-handle .ctis-load-more button,
+.slider-content-wrapper .cycle-next,
+.slider-content-wrapper .cycle-prev,
+nav.navigation.posts-navigation .nav-links a,
+.woocommerce-pagination ul.page-numbers li .page-numbers,
+.archive-content-wrap .pagination .page-numbers,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button,
+#hero-section .more-button .more-link,
+#promotion-content-section .more-button .more-link,
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+.promotion-section .more-link,
+.pricing-section .more-button .more-link,
+.pricing-section .hentry.highlight .more-button .more-link,
+.woocommerce .product-container .wc-forward,
+#feature-slider-section .more-link,
+.custom-header-content .more-link,
+.onsale,
+.site-footer .ewnewsletter .hentry form input[type="submit"],
+.site-footer .ewnewsletter .hentry form input[type="submit"],
+.pagination .page-numbers,
+.action-buttons .button.is-ghost-button,
+#testimonial-content-section .owl-nav > button
+.more-button .more-link,
+.is-gradient-button .archive-posts-wrapper .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button .button,
+.is-gradient-button .entry-summary button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="submit"],
+.is-gradient-button #stats-section .view-more .more-link,
+.is-gradient-button #app-section .entry-summary .more-link,
+.is-gradient-button .posts-navigation a,
+.is-gradient-button #content #infinite-handle span button,
+.is-gradient-button #hero-section .more-button .more-link,
+.is-gradient-button #promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.is-gradient-button .promotion-section .more-link,
+.archive-posts-wrapper .more-button .more-link,
+.is-gradient-button .woocommerce .product-container .wc-forward,
+.is-gradient-button .header-media .more-link:not(.is-ghost-button),
+.is-gradient-button #feature-slider-section .more-link,
+.is-gradient-button #testimonial-content-section .owl-nav > button {
+    &:hover,
+    &:focus {
+        background-color: map-get($button-color, background-hover-button);
+    }
+}
+
+#feature-slider-section .owl-nav button:hover,
+#feature-slider-section .owl-nav button:focus {
+    border-color: map-get($button-color, background-hover-button);
+}
+
+.pagination .page-numbers.current {
+    background-color: map-get($button-color, background-hover-button);
+}
+
+
+/* Button Text Color */
+.sidebar .widget.social-navigation a:hover,
+.sidebar .widget.social-navigation a:focus,
+.site-footer .widget.social-navigation a:hover,
+.site-footer .widget.social-navigation a:focus,
+.entry-content button,
+.entry-summary button,
+.slider-content-wrapper .controllers .cycle-prev,
+.slider-content-wrapper .controllers .cycle-next,
+button,
+#scrollup,
+.header-media .more-button .more-link,
+#primary-search-wrapper .search-container button,
+.button,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.wp-block-search .wp-block-search__button:hover,
+.wp-block-search .wp-block-search__button:focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus,
+.scrollup a:before,
+.page-numbers:hover,
+.page-numbers:focus,
+button[type="submit"],
+input[type="submit"],
+button#wp-custom-header-video-button,
+#infinite-handle .ctis-load-more button,
+nav.navigation.posts-navigation .nav-links a,
+.woocommerce-pagination ul.page-numbers li:hover,
+.archive-content-wrap .pagination .page-numbers:hover,
+.archive-content-wrap .pagination .page-numbers:focus,
+.woocommerce-pagination ul.page-numbers li:focus,
+.archive-content-wrap .pagination .page-numbers.current,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current,
+.slider-content-wrapper #featured-slider-prev:hover:before,
+.slider-content-wrapper #featured-slider-next:hover:before,
+.slider-content-wrapper #featured-slider-prev:focus:before,
+.slider-content-wrapper #featured-slider-next:focus:before,
+.nav-menu .menu-item-has-children>a:hover:before,
+.nav-menu .menu-item-has-children>a:focus:before,
+.nav-menu .menu_item_has_children>a:hover:before,
+.nav-menu .menu_item_has_children>a:focus:before,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+.post-page-numbers.current,
+.sticky-post span,
+.is-gradient-button .pagination .page-numbers,
+#hero-section .more-button .more-link,
+#promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.promotion-section .more-link,
+.pricing-section .hentry.highlight .more-button .more-link,
+.pricing-section .popular-tag,
+.woocommerce .product-container .wc-forward,
+#feature-slider-section .more-link,
+.ewnewsletter .hentry form input[type="submit"]:hover,
+.ewnewsletter .hentry form input[type="submit"]:focus,
+form div.fes-form .fes-submit input[type="submit"],
+.demo_store .woocommerce-store-notice__dismiss-link,
+.demo_store,
+.archive-posts-wrapper .more-button .more-link,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a:hover,
+.single .site-main .entry-footer .entry-meta > span:not(.edit-link) a:focus,
+.pagination .page-numbers.current,
+.is-gradient-button .page-numbers.dots,
+button#custom-video-button:hover,
+button#custom-video-button:focus,
+#team-content-section .social-navigation a:hover,
+#team-content-section .social-navigation a:focus,
+#testimonial-content-section .owl-nav > button {
+    color: map-get($button-color, button-text-color);
+}
+
+/* Button Hover Text Color */
+button,
+.button,
+.entry-content button,
+.entry-summary button,
+input[type="submit"],
+button[type="submit"],
+#primary-search-wrapper .search-container button,
+#infinite-handle .ctis-load-more button,
+nav.navigation.posts-navigation .nav-links a,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button,
+#costello-logo-slider-section .owl-prev,
+#costello-logo-slider-section .owl-next,
+#scrollup,
+#hero-section .more-button .more-link,
+#promotion-content-section .more-button .more-link,
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+.promotion-section .more-link,
+.pricing-section .more-button .more-link,
+.pricing-section .hentry.highlight .more-button .more-link,
+.woocommerce .product-container .wc-forward,
+#feature-slider-section .more-link,
+.onsale,
+#feature-slider-section .owl-prev:hover,
+#feature-slider-section .owl-prev:focus,
+#feature-slider-section .owl-next:hover,
+#feature-slider-section .owl-next:focus,
+.action-buttons .button.is-ghost-button,
+.pagination .page-numbers,
+form div.fes-form .fes-submit input[type="submit"],
+#testimonial-content-section .owl-nav > button
+.more-button .more-link,
+.site-footer .ewnewsletter .hentry form input[type="submit"],
+.archive-posts-wrapper .more-button .more-link,
+.is-gradient-button .archive-posts-wrapper .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button .button,
+.is-gradient-button .entry-summary button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="submit"],
+.is-gradient-button #stats-section .view-more .more-link,
+.is-gradient-button #app-section .entry-summary .more-link,
+.is-gradient-button .posts-navigation a,
+.is-gradient-button #content #infinite-handle span button,
+.is-gradient-button #hero-section .more-button .more-link,
+.is-gradient-button #promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.is-gradient-button .promotion-section .more-link,
+.is-gradient-button .nav-links a,
+.is-gradient-button .woocommerce .product-container .wc-forward,
+.is-gradient-button .header-media .more-link:not(.is-ghost-button),
+.is-gradient-button #feature-slider-section .more-link,
+.is-gradient-button #testimonial-content-section .owl-nav > button {
+    &:hover,
+    &:focus {
+        color: map-get($button-color, button-hover-text-color);
+    }
+}
+
+@include media(mobile-horizontal) {
+    .absolute-header .site-header.scrollDown .action-buttons .button.is-ghost-button:hover,
+    .absolute-header .site-header.scrollDown .action-buttons .button.is-ghost-button:focus {
+        color: map-get($button-color, button-hover-text-color);
+    }
+}
+
+/* Footer Button Text Color **/
+.site-footer input[type="submit"],
+#social-footer-navigation li a:hover,
+#social-footer-navigation li a:focus,
+.site-footer .ewnewsletter .hentry form input[type="submit"] {
+    color: map-get($button-color, footer-button-text-color);
+}
+
+/* Footer Button Background Color **/
+.site-footer input[type="submit"],
+.site-footer .ewnewsletter .hentry form input[type="submit"],
+.site-footer .social-links-menu a:hover  {
+    background-color: map-get($button-color, footer-button-background-color);
+}
+
+/* Quote Color */
+
+blockquote.wp-block-quote:before {
+    color: map-get($theme-color, quote-color);
+}
+
+.wp-block-pullquote, 
+.wp-block-pullquote.alignleft, 
+.wp-block-pullquote.alignright, 
+blockquote.wp-block-quote.is-large, 
+blockquote.wp-block-quote.is-style-large, 
+blockquote.wp-block-quote {
+    border-color: map-get($theme-color, quote-color);
+}
+
+
+/* Border Color */
+.woocommerce-tabs .panel,
+.woocommerce-tabs ul.tabs li.active a:after,
+.woocommerce-tabs ul.tabs:after,
+.calendar_wrap tbody tr:first-child,
+.calendar_wrap tbody tr:last-child,
+tfoot,
+tfoot tr td,
+.author-info,
+.navigation-classic .main-navigation ul ul,
+.woocommerce-shorting-wrapper,
+.woocommerce-tabs ul.tabs.wc-tabs li,
+.widget .wp-block-group article,
+.menu-wrapper .widget_shopping_cart ul.woocommerce-mini-cart li,
+.entry-summary form.cart,
+.widget_recent_entries li,
+table,
+caption,
+th,
+td,
+table thead,
+table thead tr,
+thead th,
+select,
+table.shop_table_responsive tr td,
+table tbody tr,
+table.shop_table_responsive tbody tr:last-child,
+.shop_table tfoot tr td,
+.shop_table tfoot tr th,
+table.shop_table.woocommerce-checkout-review-order-table .cart_item td,
+table.shop_table.woocommerce-checkout-review-order-table tr td,
+table.shop_table.woocommerce-checkout-review-order-table tr th,
+.rtl tbody td:last-child,
+.rtl table thead th:last-child,
+.select2-container--default .select2-selection--single,
+table.woocommerce-grouped-product-list.group_table,
+table.woocommerce-grouped-product-list.group_table td,
+table.variations,
+table.variations td,
+.woocommerce-pagination ul.page-numbers li .page-numbers,
+.archive-content-wrap .navigation.pagination .page-numbers,
+.woocommerce-posts-wrapper .summary.entry-summary .woocommerce-product-rating,
+.cart-collaterals .order-total,
+#payment .wc_payment_methods .payment_box,
+.products .product,
+abbr,
+acronym,
+.wp-block-search__label,
+.product-quantity input[type="number"],
+.coupon input[type="text"],
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.site-header-cart .widget_shopping_cart,
+.woocommerce-grouped-product-list tr,
+.mobile-social-search,
+.widget .ui-tabs .ui-tabs-panel,
+.site-header-menu .menu-inside-wrapper .nav-menu button:focus,
+header .site-header-menu .menu-inside-wrapper .main-navigation .sub-menu li:last-child,
+header .site-header-menu .menu-inside-wrapper .main-navigation .children li:last-child,
+.comment-body,
+.section:nth-child(2n-1) + .site-content,
+.site-content + .section:nth-child(2n-1),
+.archive-content-wrap .section-content-wrapper.layout-one .hentry .hentry-inner .entry-container>.entry-meta,
+.comments-area,
+.playlist-content-wrapper .wp-playlist .wp-playlist-tracks,
+.archive-post-wrap .hentry .entry-footer,
+.portfolio-content-wrapper .filter-button-group,
+.portfolio-content-wrapper .filters-select-wrap select,
+form div.fes-form fieldset,
+.edd-vendor-detail,
+.ui-tabs .ui-tabs-nav,
+.sidebar .widget .widget-title,
+.sidebar .widget .wp-block-group h2,
+.post-navigation,
+.comment-list > li,
+.comment-list > li > .children > li article,
+.comment-list > li > article,
+.sidebar .social-navigation.ct-social-widget a,
+#team-content-section .social-navigation a,
+.sidebar .widget .has-avatars li,
+.service-section .hentry-inner,
+.entry-header-wrap + .entry-content,
+.entry-header-wrap + .entry-summary {
+    border-color: map-get($theme-color, border-color);
+}
+
+.testimonial-content-section .entry-container:before {
+    color: map-get($theme-color, border-color);
+}
+
+.skillbar-content,
+.testimonial-content-section::after,
+.is-gradient-button #testimonial-content-section .owl-nav > button.disabled {
+    background-color: map-get($theme-color, border-color);
+}
+
+/* Text Color With Background */
+
+ins,
+.has-background-image .entry-container,
+.portfolio-content-wrapper .hentry .entry-container .entry-summary,
+.ewnewsletter.has-background-image .section-title,
+.testimonials-content-wrapper.section.testimonial-wrapper.has-background-image .hentry,
+.testimonials-content-wrapper.section.testimonial-wrapper.has-background-image .position,
+.playlist-content-wrapper .costello-mejs-container.mejs-container button,
+.playlist-content-wrapper .wp-playlist-current-item,
+.has-background-image .section-title,
+.has-background-image  .entry-container .entry-meta a,
+.has-background-image  .entry-container .entry-title a,
+.has-background-image  .entry-container .entry-title,
+.has-background-image  .entry-container .entry-title span,
+.has-background-image  .entry-container .entry-summary,
+.has-background-image  .entry-container .entry-content,
+.has-background-image .woocommerce-loop-product__title,
+.has-background-image .section-tagline,
+.has-background-image .section-description,
+body:not(.home).has-header-image .header-media .entry-title,
+.site-header-text .entry-meta,
+.site-header-text .entry-meta a, 
+.team-content-wrapper  a,
+.team-content-wrapper .entry-meta,
+.content-color-white .entry-container .entry-title a,
+.content-color-white .entry-container .entry-title,
+.content-color-white .entry-container .section-title,
+.content-color-white .entry-container .entry-content,
+.content-color-white .entry-container .entry-summary,
+.promotion-section.content-color-white.has-background-image .entry-container .entry-title,
+.promotion-section.content-color-white.has-background-image .entry-container .entry-content,
+.content-color-white .section-description,
+.has-background-image .products .button,
+#feature-slider-section .owl-nav button:hover:before,
+#feature-slider-section .owl-nav button:focus:before,
+.playlist-content-wrapper .wp-playlist-caption:hover,
+.playlist-content-wrapper .wp-playlist-caption:focus,
+.play-button-text,
+.site-footer input[type="email"],
+.has-header-image .breadcrumb,
+.has-header-image .breadcrumb a,
+.has-header-image .custom-header-media .breadcrumb .breadcrumb-current,
+#feature-slider-section .owl-dot,
+#app-section.content-color-white .entry-container .entry-content,
+.events-content-wrapper .entry-meta a,
+#playlist-section .playlist-content-wrapper .mejs-time {
+    color: map-get($theme-color, color-white-light);
+}
+
+ /* Footer Text Color */
+ .site-footer h1,
+ .site-footer h2,
+ .site-footer h3,
+ .site-footer h4,
+ .site-footer h5,
+ .site-footer h6,
+ .footer-widget-area a,
+.footer-widget-area .widget-title,
+.site-footer .widget .wp-block-group h2,
+#social-footer-navigation li a,
+.site-navigation a,
+.site-footer .more-button .more-link,
+.site-info a {
+    color: map-get($theme-color, footer-text-color);
+}
+
+.site-footer {
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="password"]:focus,
+    input[type="search"]:focus,
+    input[type="number"]:focus,
+    input[type="tel"]:focus,
+    input[type="range"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="week"]:focus,
+    input[type="time"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="color"]:focus,
+    textarea:focus,
+    td#today {
+        color: map-get($theme-color, footer-text-color);
+    }
+}
+
+/* 60% of footer text color */
+.site-info,
+.site-info a:hover,
+.site-navigation a:hover,
+.site-navigation a:focus,
+.footer-widget-area a:hover,
+.footer-widget-area a:focus,
+.single footer .entry-meta a:hover,
+.single footer .entry-meta a:focus,
+.site-footer .widget-wrap li a:hover,
+.site-footer .widget-wrap li a:focus,
+.site-footer input::placeholder,
+.site-footer .widget_archive ul li > span,
+.site-footer .hentry .excerpt,
+.site-footer p {
+    color: map-get($theme-color, sixty-of-footer-text-color);
+}
+
+
+/* Footer Border Color */
+
+.site-footer {
+    table,
+    caption,
+    th,
+    td,
+    table thead,
+    table thead tr,
+    thead th,
+    select,
+    input[type="text"],
+    input[type="email"],
+    input[type="email"]:focus,
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="range"],
+    input[type="date"],
+    input[type="month"],
+    input[type="week"],
+    input[type="time"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="color"],
+    textarea,
+    .social-links-menu a  {
+        border-color: map-get($theme-color, footer-border-color);
+    }
+}
+
+.site-footer select,
+.site-footer input[type="text"],
+.site-footer input[type="email"],
+.site-footer input[type="email"]:focus,
+.site-footer input[type="url"],
+.site-footer input[type="password"],
+.site-footer input[type="search"],
+.site-footer input[type="number"],
+.site-footer input[type="tel"],
+.site-footer input[type="range"],
+.site-footer input[type="date"],
+.site-footer input[type="month"],
+.site-footer input[type="week"],
+.site-footer input[type="time"],
+.site-footer input[type="datetime"],
+.site-footer input[type="datetime-local"],
+.site-footer input[type="color"],
+.site-footer textarea,
+.site-footer input[type="email"] {
+    background-color: map-get($theme-color, footer-border-color);
+
+}
+
+
+
+/* Gradient Button Background Color */
+.is-gradient-button .archive-posts-wrapper .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button button[disabled]:hover,
+.is-gradient-button button[disabled]:focus,
+.is-gradient-button .button,
+.is-gradient-button .entry-summary button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="button"][disabled]:hover,
+.is-gradient-button input[type="button"][disabled]:focus,
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="reset"][disabled]:hover,
+.is-gradient-button input[type="reset"][disabled]:focus,
+.is-gradient-button input[type="submit"],
+.is-gradient-button input[type="submit"][disabled]:hover,
+.is-gradient-button input[type="submit"][disabled]:focus,
+.is-gradient-button #stats-section .view-more .more-link,
+.is-gradient-button #app-section .entry-summary .more-link,
+.is-gradient-button .posts-navigation a,
+.is-gradient-button #content #infinite-handle span button,
+.is-gradient-button #hero-section .more-button .more-link,
+.is-gradient-button #promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.is-gradient-button .page-numbers.dots,
+.is-gradient-button .promotion-section .more-link,
+.is-gradient-button .woocommerce .product-container .wc-forward,
+.is-gradient-button .header-media .more-link:not(.is-ghost-button),
+// .is-gradient-button .nav-links a,
+.is-gradient-button #feature-slider-section .more-link,
+.is-gradient-button #testimonial-content-section .owl-nav > button {
+    background-image: linear-gradient(to left, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second));
+}
+
+.stats-section.style-one .entry-title a {
+    background: -webkit-linear-gradient( 45deg, map-get($button-color, gradient-button-background-color-second), map-get($button-color, gradient-button-background-color-first) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stats-section.style-one .entry-title a:hover,
+.stats-section.style-one .entry-title a:focus {
+    background: -webkit-linear-gradient( 45deg, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gradient Button Text Color */
+.is-gradient-button .archive-posts-wrapper .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button button[disabled]:hover,
+.is-gradient-button button[disabled]:focus,
+.is-gradient-button .button,
+.is-gradient-button .entry-summary button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="button"][disabled]:hover,
+.is-gradient-button input[type="button"][disabled]:focus,
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="reset"][disabled]:hover,
+.is-gradient-button input[type="reset"][disabled]:focus,
+.is-gradient-button input[type="submit"],
+.is-gradient-button input[type="submit"][disabled]:hover,
+.is-gradient-button input[type="submit"][disabled]:focus,
+.is-gradient-button #stats-section .view-more .more-link,
+.is-gradient-button #app-section .entry-summary .more-link,
+.is-gradient-button .posts-navigation a,
+.is-gradient-button #content #infinite-handle span button,
+.is-gradient-button #hero-section .more-button .more-link,
+.is-gradient-button #promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.is-gradient-button .promotion-section .more-link,
+.is-gradient-button .woocommerce .product-container .wc-forward,
+.is-gradient-button .header-media .more-link:not(.is-ghost-button),
+.is-gradient-button #feature-slider-section .more-link,
+.is-gradient-button #testimonial-content-section .owl-nav > button {
+    color: map-get($button-color, gradient-button-text-color);
+}
+
+/* Gradient Background Color */
+
+body:not(.home) .custom-header {
+  background-image: linear-gradient(to bottom, map-get($theme-color, gradient-background-color-first), map-get($theme-color, gradient-background-color-second));
+}
+
+/* Color Transparent */
+
+.is-gradient-button .more-button .more-link,
+.is-gradient-button button:not(.dropdown-toggle):not(.menu-toggle),
+.is-gradient-button .button,
+.is-gradient-button .entry-summary button,
+.is-gradient-button input[type="button"],
+.is-gradient-button input[type="reset"],
+.is-gradient-button input[type="submit"],
+.is-gradient-button #stats-section .view-more .more-link,
+.is-gradient-button #app-section .entry-summary .more-link,
+.is-gradient-button .posts-navigation a,
+.is-gradient-button .nav-links a,
+.is-gradient-button #content #infinite-handle span button,
+.is-gradient-button #hero-section .more-button .more-link,
+.is-gradient-button #promotion-content-section .more-button .more-link,
+.is-gradient-button .pagination .page-numbers.prev,
+.is-gradient-button .pagination .page-numbers.next,
+.is-gradient-button .promotion-section .more-link,
+.is-gradient-button .woocommerce .product-container .wc-forward,
+.is-gradient-button .header-media .more-link:not(.is-ghost-button),
+.is-gradient-button #feature-slider-section .more-link,
+.is-gradient-button #testimonial-content-section .owl-nav > button {
+    &:hover,
+    &:focus {
+        background-image: none;
+    }
+}
+
+#primary-search-wrapper .menu-inside-wrapper input[type="search"],
+button#wp-custom-header-video-button,
+.woocommerce-loop-category__title .count,
+.footer-widget-area .essential-widgets.ew-newsletter,
+#primary-search-wrapper .menu-toggle:hover,
+#primary-search-wrapper .menu-toggle:focus,
+body #menu-toggle:hover,
+body #menu-toggle:focus,
+body .dropdown-toggle:hover,
+body .dropdown-toggle:focus,
+#portfolio-content-section .filter-button-wrap .button:hover,
+#portfolio-content-section .filter-button-wrap .button:focus {
+    background: transparent;
+}
+
+#primary-search-wrapper .menu-toggle,
+body .button.is-ghost-button, 
+body .more-link.is-ghost-button,
+body #menu-toggle,
+body .dropdown-toggle,
+body .more-button .more-link.is-ghost-button,
+#portfolio-content-section .filter-button-wrap .button,
+#portfolio-content-section .filter-button-wrap .button:hover,
+#portfolio-content-section .filter-button-wrap .button:focus,
+.is-gradient-button #testimonial-content-section .owl-nav > button.disabled {
+    background-image: none;
+}
+
+
+

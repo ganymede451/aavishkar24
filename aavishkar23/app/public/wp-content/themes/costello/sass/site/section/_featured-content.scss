@@ -1,0 +1,67 @@
+/**
+ * 7.3.6 - Featured Content
+ */
+
+.events-content-wrapper a,
+.featured-content-wrapper a,
+.portfolio-content-wrapper a {
+    text-decoration: none;
+}
+
+.featured-content-wrapper .post-thumbnail,
+.portfolio-content-wrapper .post-thumbnail {
+    width: 100%;
+    overflow: hidden;
+}
+
+#team-content-section .post-thumbnail img,
+.featured-content-wrapper .post-thumbnail img {
+    transition: 0.3s;    
+}
+
+#team-content-section .post-thumbnail:hover img,
+.featured-content-wrapper .post-thumbnail:hover img {
+    opacity: 0.8;
+}
+
+#featured-video-section .lightbox-enabled iframe {
+   pointer-events:none;
+}
+
+#featured-video-section a.mixed {
+    color: transparent;
+    display: block;
+}
+
+body .flashy-container .flashy-content {
+    background: transparent;
+}
+
+.featured-video-content-wrapper .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.featured-video-content-wrapper .entry-header .entry-meta {
+    line-height: 1.25;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.featured-video-content-wrapper.section-content-wrapper .entry-title,
+#featured-content-section .hentry .post-thumbnail {
+    margin-bottom: 0;
+}
+
+
+#featured-content-section .hentry .entry-container {
+    padding-top: 28px;
+}
+
+#featured-content-section .hentry .entry-meta {
+    line-height: 1.56;
+}
+
+#featured-content-section .entry-meta svg {
+    display: none;
+}

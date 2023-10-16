@@ -1,0 +1,31 @@
+/**
+ * 6.2 - Alignments
+ */
+
+.alignleft {
+    float: left;
+    margin: 0.7em 2.1em 1.05em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0.7em 0 1.05em 2.1em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto 1.75em;
+}
+
+blockquote.alignleft {
+    margin: 0.6363636363636364em 1.272727272727273em 1.590909090909091em 0;
+}
+
+blockquote.alignright {
+    margin: 0.6363636363636364em 0 1.590909090909091em 1.272727272727273em;
+}
+
+blockquote.aligncenter {
+    margin-bottom: 1.473684211em;
+}

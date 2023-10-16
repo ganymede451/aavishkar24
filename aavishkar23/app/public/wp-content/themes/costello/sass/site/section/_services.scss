@@ -1,0 +1,23 @@
+/**
+ * 7.3.15 - Service
+ */
+
+
+.service-content-wrapper {
+    text-align: center;
+}
+
+.single-item .featured-video-content-wrapper .hentry:first-child {
+    margin: 0 auto;
+    float: none;
+}
+
+.service-section .hentry-inner {
+    padding: 28px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.service-section .post-thumbnail img {
+    border-radius: 50%;
+}

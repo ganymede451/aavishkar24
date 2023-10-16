@@ -1,0 +1,207 @@
+/**
+ * 2.3 - Font-size
+ */
+
+ .page .site-main .entry-footer .entry-meta,
+.post-navigation .nav-subtitle {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+.wp-playlist-item-artist,
+.site-description,
+.breadcrumb-area,
+.breadcrumb,
+.scroll-down,
+.site-header-text .entry-meta,
+.woocommerce .woocommerce-breadcrumb,
+.post-navigation .meta-nav,
+.woocommerce-review__published-date {
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+
+.site-info,
+.posts-navigation,
+#content #infinite-handle span button,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.tagcloud a,
+.form-allowed-tags,
+p.comment-form-cookies-consent label,
+.comment-subscription-form,
+.entry-meta {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.entry-footer > .entry-meta > span > span,
+.main-navigation a,
+.author-link {
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+.author-bio,
+.author-description .author-title,
+.widget .hentry .entry-title,
+.search-submit,
+.pagination,
+.woocommerce-pagination,
+.breadcrumb-area,
+aside.footer-widget-area .widge,
+ul.products li.product .woocommerce-loop-product__title,
+#site-generator .site-footer-menu .social-navigation a,
+.more-button,
+.team-content-wrapper .entry-meta,
+.portfolio-content-wrapper .filter-button-group button,
+.portfolio-content-wrapper .entry-title,
+.testimonial-content-section.style-two .entry-header .entry-meta,
+.before-text,
+.after-text,
+.edd-buy form select,
+.sidebar .wp-block-latest-comments__comment-excerpt,
+.ui-tabs-panel,
+.edd-reviews-area #cancel-comment-reply-link,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+.widget .widget-title,
+.widget .wp-block-group h2,
+.wp-block-search__label,
+.section-tagline,
+#feature-slider-section .entry-meta a,
+#featured-content-section .entry-meta,
+.social-navigation a,
+.social-links-menu a,
+.menu-label,
+.menu-toggle,
+.menu-toggle-close,
+.dropdown-toggle,
+.search-toggle:before,
+.search-submit:before,
+.contact-address-link-one,
+.contact-address-link-two,
+.site-header-cart .cart-contents,
+.cart-contents:before {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+body,
+#team-content-section .entry-title,
+.author-name .url,
+#tabs .ui-tabs-panel h2,
+.woocommerce-loop-category__title,
+#popular,
+.post-navigation .nav-title,
+#testimonial-content-section .entry-title,
+.testimonial-content-section.style-one .entry-meta,
+#colophon,
+.skillbar-title,
+.widget-area .essential-widgets .hentry .entry-title,
+label {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+body,
+#team-content-section .entry-title,
+.author-name .url {
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: normal;
+}
+
+#tabs .ui-tabs-panel h2,
+.woocommerce-loop-category__title,
+#popular,
+#testimonial-content-section.style-two .entry-title,
+.testimonial-content-section.style-one .entry-meta,
+.comment-meta .author-name,
+#colophon,
+#testimonial-content-section.style-one .entry-title {
+	line-height: 1.75;
+}
+
+.post-navigation .nav-title {
+	line-height: 1.46;
+}
+
+.comment-meta .author-name,
+.contact-location-one,
+.contact-location-two,
+.site-title {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+.entry-title {
+	font-size: 22px;
+	font-size: 1.375rem;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.46;
+	letter-spacing: normal;
+	text-transform: capitalize;
+}
+
+
+#costello-logo-slider-section .owl-prev:before,
+#costello-logo-slider-section .owl-next:before,
+.pricing-section .entry-title,
+.what-we-do-section .tab-pane .entry-title {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.comments-title,
+.comment-reply-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.page-title,
+.single .site-main .entry-header .entry-title,
+.page .site-main .entry-header .entry-title,
+#footer-instagram .widget-title,
+.custom-header-content .section-title,
+.feature-slider-section .owl-dot.active:before {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+.home .header-media .entry-title,
+.feature-slider-section .entry-title {
+    font-size: 36px;
+    font-size: 2.25rem;
+    transition: 0.3s;
+}
+
+.drop-cap:first-letter {
+  	float: left;
+  	font-size: 100px;
+  	font-size: 6.25rem;
+}
+
+big {
+	font-size: 125%;
+}
+
